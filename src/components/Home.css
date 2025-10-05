@@ -1,0 +1,687 @@
+.app-container {
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.main-content {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.side-menu {
+    width: 60px;
+    background-image: linear-gradient(#5e35b1, rgb(246, 48, 253));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.app-header {
+    height: 60px;
+    background-image: linear-gradient(to right, #5e35b1, rgb(246, 48, 253));
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 1rem;
+    overflow: auto;
+}
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .side-menu {
+        width: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        flex-direction: column;
+    }
+    .side-menu {
+        transform: translateX(-100%);
+        position: absolute;
+        height: 100vh;
+        width: 220px;
+        z-index: 10;
+    }
+    .side-menu.open {
+        transform: translateX(0);
+    }
+}
+
+@media (max-width: 480px) {
+    .side-menu {
+        width: 100%;
+        height: 60px;
+        flex-direction: row;
+        justify-content: center;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        transform: translateX(0);
+    }
+    .app-header {
+        height: 50px;
+    }
+    .main-content {
+        padding-bottom: 60px;
+    }
+}
+
+.app-header .logo-text {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.app-header .logo-text span {
+    font-weight: 700;
+}
+
+.app-header .logo-placeholder {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-header h1 {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.logo {
+    padding: 1.5rem 0.5rem;
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    width: 100%;
+}
+
+.logo h2 {
+    font-size: 1rem;
+    margin: 0;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+}
+
+.logo span {
+    font-weight: 700;
+}
+
+.side-menu ul {
+    list-style: none;
+    padding: 1.5rem 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 0.75rem;
+}
+
+.side-menu li {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.2s;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.side-menu li:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+.side-menu li.active {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.content-area {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+}
+
+.header {
+    background-color: white;
+    color: #333;
+    padding: 0.75rem 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #333;
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.notification-icon {
+    position: relative;
+    cursor: pointer;
+    color: #666;
+}
+
+.notification-badge {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: #f44336;
+    color: white;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    font-size: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-profile {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.user-profile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.dashboard-container {
+    padding: 1.5rem 2rem;
+    flex: 1;
+}
+
+.dashboard-row {
+    display: flex;
+    gap: 1.5rem;
+    height: 100%;
+    min-height: 300px;
+    margin-bottom: 1rem;
+}
+
+.dashboard-chart-section {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    padding: 1rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard-stats-section {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    padding: 1rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.stats-header h2 {
+    margin: 0 0 0.5rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #333;
+}
+
+.stats-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex: 1;
+    justify-content: center;
+}
+
+.stat-card {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.stat-title {
+    color: #666;
+    font-size: 1.1rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.stat-value {
+    color: #333;
+    font-size: 2rem !important;
+    font-weight: 500 !important;
+}
+
+.dashboard-donut-chart {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.chart-title {
+    font-size: 1.4rem !important;
+    font-weight: 600 !important;
+    color: #666;
+    margin-bottom: 16px;
+}
+
+.donut-chart-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.donut-chart-wrapper {
+    position: relative;
+    width: 100%;
+    flex: 1;
+    min-height: 180px;
+}
+
+.donut-center-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.center-value {
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: #333;
+}
+
+.center-label {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 0.25rem;
+}
+
+.donut-legend {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.legend-color {
+    width: 14px;
+    height: 14px;
+    border-radius: 3px;
+}
+
+.legend-label {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+.policy-table-container {
+    padding: 0 2rem 2rem;
+}
+
+.policy-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.policy-table th,
+.policy-table td {
+    padding: 1.25rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+.policy-table th {
+    background-color: #f8f8f8;
+    font-weight: 500;
+    color: #666;
+    white-space: nowrap;
+    font-size: 0.9rem;
+}
+
+.policy-table th:first-child {
+    border-top-left-radius: 8px;
+}
+
+.policy-table th:last-child {
+    border-top-right-radius: 8px;
+    text-align: left;
+}
+
+.date-column {
+    width: 15%;
+}
+
+.details-column {
+    width: 40%;
+}
+
+.status-column {
+    width: 30%;
+    text-align: center;
+}
+
+.policy-table th.status-column,
+.policy-table td.status-column {
+    text-align: center;
+}
+
+.review-column {
+    width: 15%;
+    text-align: left;
+}
+
+.policy-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.review-button {
+    padding: 0.5rem 1.25rem;
+    border: none;
+    background-color: #5e35b1;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.875rem;
+    transition: all 0.2s;
+    font-weight: 500;
+}
+
+.review-button:hover {
+    background-color: #512da8;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(94, 53, 177, 0.2);
+}
+
+.evaluation-chart {
+    display: flex;
+    padding: 0.5rem;
+    justify-content: center;
+}
+
+.chart-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.recharts-wrapper {
+    margin-left: 0;
+}
+
+.chart-legend {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    align-items: flex-start;
+}
+
+.evaluation-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem !important;
+    margin: 0 !important;
+    white-space: nowrap;
+    color: #333;
+    padding-left: 0;
+    gap: 0.5rem;
+}
+
+.evaluation-text::before {
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 0.25rem;
+}
+
+.evaluation-text.compliant::before {
+    background-color: #4CAF50;
+}
+
+.evaluation-text.partially-compliant::before {
+    background-color: #FFA726;
+}
+
+.evaluation-text.non-compliant::before {
+    background-color: #EF5350;
+}
+
+.progress-bar {
+    margin-top: 4px;
+}
+
+.policy-table td {
+    vertical-align: middle;
+    text-align: left;
+}
+
+.policy-table td:nth-child(3) {
+    text-align: center;
+}
+
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+}
+
+.error-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    color: #ff5252;
+    text-align: center;
+    padding: 2rem;
+}
+
+@media (max-width: 1200px) {
+    .dashboard-row {
+        flex-direction: column;
+    }
+    
+    .dashboard-chart-section,
+    .dashboard-stats-section {
+        width: 100%;
+    }
+}
+
+@media (max-width: 960px) {
+    .dashboard-container {
+        padding: 1rem;
+    }
+    
+    .policy-table-container {
+        padding: 0 1rem 1rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+    
+    .header-actions {
+        width: 100%;
+        justify-content: flex-end;
+    }
+    
+    .policy-table th,
+    .policy-table td {
+        padding: 1rem 0.5rem;
+    }
+}
+
+/* Add tooltip styles for pie chart hover */
+.recharts-sector:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.recharts-tooltip-wrapper {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    z-index: 1000;
+}
+
+.compliance-bar-chart {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.chart-title {
+    font-size: 1.2rem !important;
+    font-weight: 500 !important;
+    color: #333;
+    margin-bottom: 16px !important;
+}
+
+.bar-chart-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-tooltip {
+    background-color: white;
+    border-radius: 4px;
+    padding: 12px 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    border: 1px solid #eee;
+}
+
+.custom-tooltip .label {
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.custom-tooltip .value {
+    font-size: 13px;
+    margin-bottom: 4px;
+    color: #555;
+}
+
+.custom-tooltip .percentage {
+    font-size: 13px;
+    color: #777;
+    font-weight: 500;
+}
+
+.stats-header h2 {
+    font-size: 1.2rem !important;
+    font-weight: 600 !important;
+    color: #666;
+    margin-bottom: 16px;
+}
+
+.stat-title {
+    font-size: 1.2rem !important;
+    font-weight: 600 !important;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+.policy-table thead th {
+    font-size: 1.2rem !important;
+    font-weight: 600 !important;
+    color: #666;
+    padding: 16px;
+    text-align: left;
+    border-bottom: 2px solid #eee;
+}
+
+.header .dashboard-title {
+    margin: 0;
+    font-size: 1.5rem !important;
+    font-weight: 600 !important;
+    color: #333;
+}
+
+.domain-chart-container {
+    height: 100%;
+    width: 100%;
+}
+
+.domain-chart-title {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.header-logo {
+    height: 30px;
+    width: auto;
+    object-fit: contain;
+}

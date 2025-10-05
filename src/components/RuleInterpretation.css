@@ -1,0 +1,712 @@
+.rule-interpretation-container {
+  padding: 2rem;
+  flex: 1;
+  background-color: #f5f7fa;
+  min-height: 100vh;
+}
+
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.version-select {
+  min-width: 200px;
+}
+
+.interpretation-content {
+  margin-top: 1rem;
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+}
+
+.error-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+  color: #ff5252;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Version selector styling */
+.version-select .MuiOutlinedInput-root {
+  background-color: white;
+}
+
+.version-select .MuiSelect-select {
+  padding: 0.75rem;
+}
+
+/* Card styling */
+.interpretation-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  margin-bottom: 1rem;
+}
+
+.interpretation-card:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+}
+
+.domain-accordion {
+  background-color: white !important;
+  border-radius: 8px !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05) !important;
+  margin-bottom: 1rem !important;
+}
+
+.domain-summary {
+  background-color: #f5f5f5 !important;
+}
+
+.domain-title {
+  color: #2d3748 !important;
+  font-weight: 600 !important;
+}
+
+.regulator-accordion {
+  background-color: #f8fafc !important;
+  border-radius: 8px !important;
+  box-shadow: none !important;
+  margin: 0.5rem 0 !important;
+  border: 1px solid #e2e8f0 !important;
+}
+
+.regulator-summary {
+  background-color: #f8f8f8 !important;
+}
+
+.regulator-title {
+  color: #4a5568 !important;
+  font-weight: 500 !important;
+}
+
+.policy-section {
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.table-container {
+  border-radius: 8px !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05) !important;
+  border: 1px solid #e2e8f0 !important;
+  overflow: hidden !important;
+  width: 100% !important;
+}
+
+.header-cell {
+  background-color: #f8fafc !important;
+  color: #1a365d !important;
+  font-weight: 600 !important;
+  border-bottom: 2px solid #e2e8f0 !important;
+  padding: 16px !important;
+  font-size: 0.875rem !important;
+}
+
+.interpretation-row:hover {
+  background-color: #f8fafc !important;
+}
+
+.test-case-cell {
+  width: 10% !important;
+  min-width: 100px !important;
+}
+
+.test-description {
+  color: #4a5568 !important;
+  max-width: none !important;
+  white-space: normal !important;
+  word-wrap: break-word !important;
+  line-height: 1.5 !important;
+  font-size: 0.875rem !important;
+}
+
+.excerpt {
+  color: #718096 !important;
+  font-style: italic !important;
+  max-width: none !important;
+  white-space: normal !important;
+  word-wrap: break-word !important;
+}
+
+.citations {
+  display: flex !important;
+  gap: 0.5rem !important;
+  flex-wrap: wrap !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  min-width: 150px !important;
+}
+
+.citation-chip {
+  background-color: #ebf4ff !important;
+  color: #2b6cb0 !important;
+  font-weight: 500 !important;
+  border: 1px solid #bee3f8 !important;
+  transition: all 0.2s ease !important;
+  max-width: 120px !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+.citation-chip:hover {
+  background-color: #bee3f8 !important;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.view-source-btn {
+  background-color: #f7fafc !important;
+  color: #2d3748 !important;
+  border: 1px solid #e2e8f0 !important;
+  transition: all 0.2s ease !important;
+  margin-left: auto !important;
+  min-width: 110px !important;
+  height: 32px !important;
+}
+
+.view-source-btn:hover {
+  background-color: #edf2f7 !important;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.matches-container {
+  max-height: 300px;
+  overflow-y: auto;
+  padding-right: 8px;
+}
+
+.match-item {
+  padding: 0.75rem;
+  margin-bottom: 0.75rem;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  background-color: #fff;
+  transition: all 0.2s ease;
+}
+
+.match-item:last-child {
+  margin-bottom: 0;
+}
+
+.match-item:hover {
+  background-color: #f5f5f5;
+  border-color: #ddd;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.match-condition {
+  color: #666;
+  line-height: 1.4;
+  margin-top: 4px;
+}
+
+/* Custom scrollbar */
+.table-container::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.table-container::-webkit-scrollbar-track {
+  background: #f7fafc;
+  border-radius: 3px;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+  background: #cbd5e0;
+  border-radius: 3px;
+}
+
+.table-container::-webkit-scrollbar-thumb:hover {
+  background: #a0aec0;
+}
+
+/* Accordion styles */
+.MuiAccordionDetails-root {
+  padding: 16px !important;
+}
+
+.dashboard-container {
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.stat-card, .chart-card {
+  background-color: white !important;
+  border-radius: 8px !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05) !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+.stat-card:hover, .chart-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1) !important;
+}
+
+.MuiCardContent-root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.recharts-wrapper {
+  margin: 0 auto;
+}
+
+/* Add these new styles */
+.page-title {
+  margin-bottom: 2rem !important;
+  color: #1a365d;
+  font-weight: 600 !important;
+}
+
+.versions-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.version-accordion {
+  background-color: white !important;
+  border-radius: 12px !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05) !important;
+  margin-bottom: 1rem !important;
+}
+
+.version-accordion:before {
+  display: none;
+}
+
+.version-summary {
+  background-color: #f8fafc !important;
+  border-radius: 12px 12px 0 0 !important;
+}
+
+.version-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.version-content {
+  padding: 1rem 0;
+}
+
+.interpretations-list {
+  margin-top: 2rem;
+}
+
+/* Animation for version expansion */
+.version-accordion {
+  transition: all 0.3s ease-in-out;
+}
+
+.version-accordion.Mui-expanded {
+  margin: 1rem 0 !important;
+}
+
+.version-content {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Add these new styles */
+.version-comparison-dashboard {
+  padding: 24px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  margin-bottom: 2rem;
+}
+
+.comparison-card {
+  background-color: white !important;
+  border-radius: 8px !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05) !important;
+  border: 1px solid #e2e8f0 !important;
+}
+
+.comparison-card .MuiCardContent-root {
+  padding: 16px !important;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+}
+
+.comparison-card .MuiTypography-subtitle2 {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.version-stat-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 0.75rem 0;
+  padding: 0.5rem;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+}
+
+.version-stat-row:first-of-type {
+  margin-top: 1rem;
+}
+
+.version-stat-row .MuiTypography-h6 {
+  flex: 1;
+  margin: 0;
+}
+
+.version-stat-row .MuiSvgIcon-root {
+  font-size: 1.2rem;
+}
+
+.chart-container {
+  margin-top: 1rem;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.summary-card {
+  background-color: #f8f9fa;
+  transition: transform 0.2s ease;
+}
+
+.summary-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1) !important;
+}
+
+.summary-card .MuiCardContent-root {
+  padding: 16px !important;
+}
+
+.stat-summary {
+  margin-top: 1rem;
+}
+
+.change-indicator {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem 0;
+  padding: 0.25rem 0;
+}
+
+/* Custom tooltip styles */
+.recharts-tooltip-wrapper {
+  background-color: rgba(255, 255, 255, 0.95) !important;
+  border: 1px solid #e0e0e0 !important;
+  border-radius: 4px !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
+}
+
+.recharts-default-tooltip {
+  background-color: rgba(255, 255, 255, 0.95) !important;
+  border: none !important;
+  border-radius: 4px !important;
+  padding: 0.5rem !important;
+}
+
+/* Update chart styles */
+.custom-tooltip {
+  background-color: rgba(255, 255, 255, 0.95);
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  padding: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  font-size: 12px;
+}
+
+.tooltip-label {
+  margin: 0 0 4px 0;
+  font-weight: 600;
+  color: #333;
+}
+
+.tooltip-value {
+  margin: 0 0 2px 0;
+  color: #666;
+}
+
+.tooltip-date {
+  margin: 0;
+  font-size: 11px;
+  color: #999;
+}
+
+/* Add styles for bar chart hover effects */
+.recharts-bar-rectangle:hover {
+  filter: brightness(0.9);
+}
+
+.version-summary-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: 100%;
+  max-height: 360px;
+  overflow-y: auto;
+}
+
+/* Custom scrollbar for summary container */
+.version-summary-container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.version-summary-container::-webkit-scrollbar-track {
+  background: #f7fafc;
+  border-radius: 3px;
+}
+
+.version-summary-container::-webkit-scrollbar-thumb {
+  background: #cbd5e0;
+  border-radius: 3px;
+}
+
+.version-summary-container::-webkit-scrollbar-thumb:hover {
+  background: #a0aec0;
+}
+
+/* Dialog styles */
+.MuiDialog-paper {
+  border-radius: 12px !important;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1) !important;
+}
+
+.MuiDialogTitle-root {
+  background-color: #f8fafc !important;
+  border-bottom: 1px solid #e2e8f0 !important;
+  padding: 1rem 1.5rem !important;
+}
+
+.MuiDialogContent-root {
+  padding: 1.5rem !important;
+}
+
+.MuiDialogTitle-root .MuiTypography-subtitle2 {
+  margin-top: 4px;
+  opacity: 0.8;
+}
+
+/* PDF container styles */
+#pdf-container {
+  background-color: #f7fafc;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+#pdf-container canvas {
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* Add styles for table cells */
+.MuiTableCell-root {
+  padding: 16px !important;
+  vertical-align: middle !important;
+  white-space: normal !important;
+  word-wrap: break-word !important;
+}
+
+/* Style for the policy code cell */
+.policy-chip {
+  max-width: 150px !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+/* Add horizontal scrolling for narrow screens */
+@media screen and (max-width: 1200px) {
+  .table-container {
+    overflow-x: auto !important;
+  }
+
+  table {
+    min-width: 1000px !important;
+  }
+}
+
+/* Ensure consistent row heights */
+.interpretation-row {
+  min-height: 72px !important;
+}
+
+/* Add subtle borders between rows */
+.MuiTableRow-root {
+  border-bottom: 1px solid #e2e8f0 !important;
+}
+
+/* Version box styles */
+.version-box {
+  height: 100%;
+  background-color: white !important;
+  border-radius: 8px !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05) !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+  max-width: 220px;
+  margin: 0;
+  overflow: hidden !important;
+}
+
+.version-box:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1) !important;
+}
+
+.version-box-content {
+  padding: 12px !important;
+}
+
+.version-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.version-badge {
+  background-color: #f0f0f0;
+  padding: 4px 8px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.version-title {
+  font-weight: 700 !important;
+  color: #2563eb !important; /* Blue color */
+  font-size: 1rem !important;
+  margin: 0 !important;
+  line-height: 1.2 !important;
+}
+
+.version-date {
+  font-size: 0.75rem !important;
+}
+
+.version-stats-container {
+  border-top: 1px solid #e0e0e0;
+  padding-top: 12px;
+}
+
+.stat-line {
+  margin-bottom: 8px !important;
+  font-size: 0.9rem !important;
+  color: #4a5568 !important;
+  text-align: left !important;
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+.stat-label {
+  font-weight: 700 !important;
+  color: #2d3748 !important;
+  min-width: 85px !important;
+}
+
+.stat-count {
+  font-weight: 600;
+  color: #2d3748;
+}
+
+/* Chart box styles */
+.chart-box {
+  height: 100%;
+  background-color: white !important;
+  border-radius: 8px !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05) !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+.chart-box:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1) !important;
+}
+
+.chart-box .MuiCardContent-root {
+  padding: 16px !important;
+  height: 100%;
+}
+
+/* Version comparison dashboard styles */
+.version-comparison-dashboard {
+  padding: 24px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  margin-bottom: 2rem;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 960px) {
+  .version-box, .chart-box {
+    margin-bottom: 1rem;
+  }
+}
+
+/* Dashboard title */
+.dashboard-title {
+  font-weight: 700 !important;
+  color: #1a365d !important;
+  margin-bottom: 1.5rem !important;
+  font-size: 2rem !important;
+}
+
+/* Chart box styles */
+.chart-box {
+  height: 100%;
+  background-color: white !important;
+  border-radius: 8px !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05) !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+.chart-box .chart-title {
+  font-weight: 700 !important;
+  color: #2d3748 !important;
+  font-size: 1.25rem !important;
+  margin-bottom: 1rem !important;
+}
+
+/* Update tooltip styles for consistency */
+.custom-tooltip .tooltip-label {
+  font-weight: 700 !important;
+  font-size: 0.9rem !important;
+}
+
+.custom-tooltip .tooltip-value {
+  font-weight: 600 !important;
+  font-size: 0.85rem !important;
+}
+
+.version-dropdown-title {
+  font-weight: 700 !important;
+  color: #2d3748 !important;
+} 

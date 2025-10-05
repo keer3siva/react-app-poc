@@ -1,0 +1,2011 @@
+{
+    "Regulation_interpretation": {
+        "operational_resilience": {
+            "FCA": [
+                {
+                    "policy_code": "sysc15a",
+                    "policy_test_cases": [
+                        {
+                            "Test case no": "1",
+                            "Test case": "Verify that TSB has identified its important business services.",
+                            "Excerpt": "A firm must identify its important business services.",
+                            "rule citation": [
+                                "15A.2.1 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "2",
+                            "Test case": "Verify that TSB keeps its compliance with the identification of important business services under review, especially when there is a material change to its business or market, and at least annually.",
+                            "Excerpt": "A firm must keep its compliance with ■ SYSC 15A.2.1R under review and, in particular, consider its compliance in the following circumstances: (1) if there is a material change to the firm’s business or the market in which it operates; and (2) in any event, no later than 1 year after it last carried out the relevant assessment.",
+                            "rule citation": [
+                                "15A.2.2 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "3",
+                            "Test case": "Ensure that TSB sets an impact tolerance for each of its important business services.",
+                            "Excerpt": "A firm must, for each of its important business services, set an impact tolerance.",
+                            "rule citation": [
+                                "15A.2.5 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "4",
+                            "Test case": "Ensure that TSB regularly reviews its compliance with setting impact tolerances for important business services, especially when there is a significant change in its business or market, and at least annually.",
+                            "Excerpt": "A firm must keep its compliance with ■ SYSC 15A.2.5R under review and, in particular, consider its compliance in the following circumstances: (1) if there is a material change to the firm’s business or the market in which it operates; and (2) in any event, no later than 1 year after it last carried out the relevant assessment.",
+                            "rule citation": [
+                                "15A.2.6 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "5",
+                            "Test case": "Check that TSB has sound, effective, and comprehensive strategies, processes, and systems to comply with operational resilience obligations.",
+                            "Excerpt": "A firm must have in place sound, effective and comprehensive strategies, processes and systems to enable it to comply with its obligations under this chapter.",
+                            "rule citation": [
+                                "15A.3.1 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "6",
+                            "Test case": "Verify that TSB has identified and documented the people, processes, technology, facilities, and information necessary to deliver each of its important business services.",
+                            "Excerpt": "A firm must identify and document the people, processes, technology, facilities and information necessary to deliver each of its important business services.",
+                            "rule citation": [
+                                "15A.4.1 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "7",
+                            "Test case": "Ensure that TSB has a comprehensive understanding of the people, processes, technology, facilities, and information that third parties use to deliver important business services on its behalf.",
+                            "Excerpt": "Where a firm relies on a third party for the delivery of an important business service, we would expect the firm to have sufficient understanding of the people, processes, technology, facilities, and information that support the provision by the third party of its services to or on behalf of the firm so as to allow the firm to comply with its obligations under ■ SYSC 15A.4.1R.",
+                            "rule citation": [
+                                "15A.4.2 G"
+                            ]
+                        },
+                        {
+                            "Test case no": "8",
+                            "Test case": "Ensure that TSB develops and maintains a testing plan to assess its ability to remain within impact tolerances for each important business service.",
+                            "Excerpt": "A firm must develop and keep up to date a testing plan that appropriately details how it will gain assurance that it can remain within the impact tolerances for each of its important business services.",
+                            "rule citation": [
+                                "15A.5.1 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "9",
+                            "Test case": "Confirm that TSB conducts scenario testing to assess its ability to remain within impact tolerances during severe but plausible disruptions.",
+                            "Excerpt": "A firm must carry out scenario testing, to assess its ability to remain within its impact tolerance for each of its important business services in the event of a severe but plausible disruption of its operations.",
+                            "rule citation": [
+                                "15A.5.3 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "10",
+                            "Test case": "Verify that TSB conducts a lessons learned exercise after scenario testing or operational disruptions to identify weaknesses and improve resilience.",
+                            "Excerpt": "A firm must, following scenario testing or, in the event of an operational disruption, after such event, conduct a lessons learned exercise that allows the firm to identify weaknesses and take action to improve its ability to effectively respond and recover from future disruptions.",
+                            "rule citation": [
+                                "15A.5.8 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "11",
+                            "Test case": "Ensure that TSB maintains a written record of its compliance with operational resilience requirements, including important business services and impact tolerances.",
+                            "Excerpt": "A firm must make, and keep up to date, a written record of its assessment of its compliance with the requirements in this chapter, including, but not limited to, a written record of: (1) important business services identified by the firm and the justification for the determination made; (2) the firm’s impact tolerances and the justification for the level at which they have been set by the firm; (3) the firm’s approach to mapping under ■ SYSC 15A.4.1R, including how the firm has used mapping to: (a) identify the people, processes, technology, facilities and information necessary to deliver each of its important business services; (b) identify vulnerabilities; and (c) support scenario testing; (4) the firm’s testing plan and a justification for the plan adopted; (5) details of the scenario testing carried out as part of its obligations under ■ SYSC 15A.5, including a description and justification of the assumptions made in relation to scenario design and any identified risks to the firm’s ability to meet its impact tolerances; (6) any lessons learned exercise conducted under ■ SYSC 15A.5.8R; (7) an identification of the vulnerabilities that threaten the firm’s ability to deliver its important business services within the impact tolerances set, including the actions taken or planned and justifications for their completion time; (8) its communication strategy under ■ SYSC 15A.8.1R and an explanation of how it will enable it to reduce the anticipated harm caused by operational disruptions; and (9) the methodologies used to undertake the above activities.",
+                            "rule citation": [
+                                "15A.6.1 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "12",
+                            "Test case": "Verify that TSB's governing body approves and regularly reviews the written records of self-assessment and lessons learned exercises.",
+                            "Excerpt": "A firm must ensure that its governing body approves and regularly reviews the written records required under SYSC 15A.6 (Self-assessment and lessons learned exercise documentation).",
+                            "rule citation": [
+                                "15A.7.1 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "13",
+                            "Test case": "Check that TSB maintains an internal and external communication strategy to act quickly and effectively during operational disruptions.",
+                            "Excerpt": "A firm must maintain an internal and external communication strategy to act quickly and effectively to reduce the anticipated harm caused by operational disruptions.",
+                            "rule citation": [
+                                "15A.8.1 R"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "policy_code": "icob",
+                    "policy_test_cases": [
+                        {
+                            "Test case no": "1",
+                            "Test case": "Verify that TSB categorizes clients correctly as consumers or commercial customers, and treats them accordingly.",
+                            "Excerpt": "If it is not clear in a particular case whether a customer is a consumer or a commercial customer, a firm must treat the customer as a consumer.",
+                            "rule citation": [
+                                "2.1.2 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "2",
+                            "Test case": "Ensure that all communications and financial promotions by TSB are clear, fair, and not misleading.",
+                            "Excerpt": "When a firm communicates information, including a financial promotion, to a customer it must ensure that is clear, fair and not misleading.",
+                            "rule citation": [
+                                "2.2.2 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "3",
+                            "Test case": "Check that TSB manages conflicts of interest fairly, especially in relation to inducements.",
+                            "Excerpt": "Principle 8 requires a firm to manage conflicts of interest fairly, both between itself and its customers and between a customer and another client.",
+                            "rule citation": [
+                                "2.3.1 G"
+                            ]
+                        },
+                        {
+                            "Test case no": "4",
+                            "Test case": "Verify that TSB maintains adequate records to support its business operations and regulatory compliance.",
+                            "Excerpt": "Firms will need to decide what records they need to keep in line with the high-level record-keeping requirements and their own business needs.",
+                            "rule citation": [
+                                "2.4.1 G"
+                            ]
+                        },
+                        {
+                            "Test case no": "5",
+                            "Test case": "Ensure that TSB acts honestly, fairly, and professionally in the best interests of its customers.",
+                            "Excerpt": "A firm must act honestly, fairly and professionally in accordance with the best interests of its customer.",
+                            "rule citation": [
+                                "2.5.1 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "6",
+                            "Test case": "Confirm that TSB provides appropriate information to customers to enable informed decision-making.",
+                            "Excerpt": "A firm must ensure that a customer is given appropriate information about a policy in good time and in a comprehensible form so that the customer can make an informed decision about the arrangements proposed.",
+                            "rule citation": [
+                                "6.1.5.1 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "7",
+                            "Test case": "Verify that TSB provides consumers with the right cancel their insurance contract without penalty and without reason within 30 days for pure protection or payment protection contracts, or 14 days for other insurance or distance contracts.",
+                            "Excerpt": "A consumer has a right to cancel, without penalty and without giving any reason, within: 30 days for a contract of insurance which is, or has elements of, a pure protection contract or payment protection contract; or 14 days for any other contract of insurance or distance contract.",
+                            "rule citation": [
+                                "7.1.1 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "8",
+                            "Test case": "Verify that TSB handles claims promptly and fairly, provides reasonable guidance to help policyholders make claims, offers appropriate information on claim progress, does not unreasonably reject claims, and settles claims promptly once settlement terms are agreed.",
+                            "Excerpt": "An insurer must: handle claims promptly and fairly; provide reasonable guidance to help a policyholder make a claim and appropriate information on its progress; not unreasonably reject a claim (including by terminating or avoiding a policy); and settle claims promptly once settlement terms are agreed.",
+                            "rule citation": [
+                                "8.1.1 R"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "PRA": [
+                {
+                    "policy_code": "prarb",
+                    "policy_test_cases": [
+                        {
+                            "Test case no": "1",
+                            "Test case": "Verify that TSB has identified its important business services.",
+                            "Excerpt": "A firm must identify its important business services.",
+                            "rule citation": [
+                                "2.1"
+                            ]
+                        },
+                        {
+                            "Test case no": "2",
+                            "Test case": "Check that TSB has set an impact tolerance for each important business service.",
+                            "Excerpt": "A firm must set an impact tolerance for each of its important business services.",
+                            "rule citation": [
+                                "2.2"
+                            ]
+                        },
+                        {
+                            "Test case no": "3",
+                            "Test case": "Ensure TSB can remain within its impact tolerance during severe disruptions.",
+                            "Excerpt": "A firm must ensure it can remain within its impact tolerance for each important business service in the event of a severe but plausible disruption to its operations.",
+                            "rule citation": [
+                                "2.5"
+                            ]
+                        },
+                        {
+                            "Test case no": "4",
+                            "Test case": "Verify TSB's strategies, processes, and systems for operational resilience.",
+                            "Excerpt": "A firm must have in place sound, effective and comprehensive strategies, processes and systems that enable it adequately to: (1) identify its important business services; (2) set an impact tolerance for each important business service; and (3) identify and address any risks to its ability to comply with the obligation under 2.5.",
+                            "rule citation": [
+                                "3.1"
+                            ]
+                        },
+                        {
+                            "Test case no": "5",
+                            "Test case": "Check TSB's documentation of necessary resources for important business services.",
+                            "Excerpt": "As part of its obligation under 3.1, a firm must identify and document the necessary people, processes, technology, facilities and information required to deliver each of its important business services.",
+                            "rule citation": [
+                                "4.1"
+                            ]
+                        },
+                        {
+                            "Test case no": "6",
+                            "Test case": "Conduct scenario testing for TSB's important business services.",
+                            "Excerpt": "A firm must carry out regular scenario testing of its ability to remain within its impact tolerance for each of its important business services in the event of a severe but plausible disruption of its operations.",
+                            "rule citation": [
+                                "5.1"
+                            ]
+                        },
+                        {
+                            "Test case no": "7",
+                            "Test case": "Review TSB's self-assessment of operational resilience compliance.",
+                            "Excerpt": "A firm must prepare and regularly update a written self-assessment of its compliance with this Part.",
+                            "rule citation": [
+                                "6.1"
+                            ]
+                        },
+                        {
+                            "Test case no": "8",
+                            "Test case": "Ensure that TSB's written self-assessment is proportionate to the nature, scale, and complexity of its activities, including those of any applicable consolidation group.",
+                            "Excerpt": "The content and level of detail of a firm’s written self-assessment must be proportionate to the nature, scale and complexity of the firm’s activities, and where applicable to the activities of the consolidation group of which the firm is a member.",
+                            "rule citation": [
+                                "6.2"
+                            ]
+                        },
+                        {
+                            "Test case no": "9",
+                            "Test case": "Verify that TSB maintains a current version of its written self-assessment and retains all versions produced during the preceding three years, ensuring they can be provided to the PRA upon request.",
+                            "Excerpt": "A firm must maintain, and be able to provide to the PRA on request, a current version of its written self-assessment, together with all versions produced during the preceding three years.",
+                            "rule citation": [
+                                "6.3"
+                            ]
+                        },
+                        {
+                            "Test case no": "10",
+                            "Test case": "Verify that TSB's management body has approved the important business services identified by the company.",
+                            "Excerpt": "A firm must ensure that its management body approves the important business services identified by the firm in compliance with 2.1.",
+                            "rule citation": [
+                                "7.1"
+                            ]
+                        },
+                        {
+                            "Test case no": "11",
+                            "Test case": "Verify that TSB's management body approves the impact tolerances set for each of its important business services.",
+                            "Excerpt": "A firm must ensure that its management body approves the impact tolerances set by the firm in compliance with 2.2.",
+                            "rule citation": [
+                                "7.2"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "policy_code": "ss121",
+                    "policy_test_cases": [
+                        {
+                            "Test case no": "1",
+                            "Test case": "Verify that TSB has set impact tolerances for each service.",
+                            "Excerpt": "The Operational Resilience Parts require firms to set an impact tolerance for each of their important business services.",
+                            "rule citation": [
+                                "3.1"
+                            ]
+                        },
+                        {
+                            "Test case no": "2",
+                            "Test case": "Verify that TSB uses impact tolerances to prioritize investment and make recovery and response arrangements, and that they inform decision-making during operational disruptions.",
+                            "Excerpt": "Impact tolerances provide a standard which boards and senior management should use for prioritising investment and making recovery and response arrangements (see Chapters 4 to 6 of this SS). They may be helpful in informing decision-making during operational disruptions, when they would be considered alongside other information relevant to managing an incident effectively.",
+                            "rule citation": [
+                                "3.4"
+                            ]
+                        },
+                        {
+                            "Test case no": "3",
+                            "Test case": "Ensure that TSB sets impact tolerances based on the assumption that a disruption will occur, without considering the cause or probability of the disruption.",
+                            "Excerpt": "The PRA expects impact tolerances to be set on the assumption that a disruption will occur. Firms should not consider the cause or probability of disruption when setting their impact tolerances.",
+                            "rule citation": [
+                                "3.5"
+                            ]
+                        },
+                        {
+                            "Test case no": "4",
+                            "Test case": "Ensure that TSB sets resilience requirements, including capacity specifications, recovery time objectives, and recovery point objectives, for the necessary resources that contribute to the delivery of important business services within its impact tolerance.",
+                            "Excerpt": "Setting an impact tolerance enables firms to assess the status of, and set resilience requirements for, the necessary people, processes, technology, facilities, and information (the ’resources’) that contribute to the delivery of important business service. These requirements might include capacity specifications, recovery time objectives, and recovery point objectives. These requirements should be set to enable the firm to deliver the important business service within its impact tolerance.",
+                            "rule citation": [
+                                "3.14"
+                            ]
+                        },
+                        {
+                            "Test case no": "5",
+                            "Test case": "Ensure TSB reviews its important business services annually or sooner if significant changes occur.",
+                            "Excerpt": "The PRA expects firms to review their important business services annually at a minimum, or sooner if a significant change occurs.",
+                            "rule citation": [
+                                "2.10"
+                            ]
+                        },
+                        {
+                            "Test case no": "6",
+                            "Test case": "Confirm that TSB has developed and implemented effective remediation plans for services that cannot remain within impact tolerance.",
+                            "Excerpt": "The PRA expects firms to develop and implement effective remediation plans for the important business services that would not be able to remain within their impact tolerance.",
+                            "rule citation": [
+                                "4.3"
+                            ]
+                        },
+                        {
+                            "Test case no": "7",
+                            "Test case": "Ensure that TSB considers both PRA and FCA objectives when setting impact tolerances for its important business services, and verify that TSB leverages work done for one regulator to meet the requirements of the other, avoiding duplicative efforts.",
+                            "Excerpt": "The PRA requires firms to consider PRA objectives when setting impact tolerances. It is also aware that dual-regulated firms must identify a separate impact tolerance for their important business services, where the delivery of the important business service is also relevant to the FCA’s objectives. Where appropriate, a firm may set its PRA impact tolerance for a given important business service at the same point as its FCA impact tolerance. The PRA expects that work done to meet the requirements of one regulator should be leveraged to meet those of the other, and would encourage firms to avoid duplicative work.",
+                            "rule citation": [
+                                "4.8"
+                            ]
+                        },
+                        {
+                            "Test case no": "8",
+                            "Test case": "Verify that TSB has considered the PRA's objectives when setting impact tolerances for its important business services, and ensure that TSB's response and recovery arrangements are designed to enable the bank to remain within the PRA's impact tolerances during disruptions. Additionally, confirm that TSB's scenario testing exercises assess its ability to operate within the PRA's impact tolerances for severe but plausible disruption scenarios.",
+                            "Excerpt": "The PRA understands that in practice firms may concentrate their efforts on ensuring they can remain within the more stringent tolerance. Where the PRA and FCA impact tolerances differ for a dual-regulated firm, taking action to ensure firms can remain within the more stringent tolerance will be acceptable if a firm can demonstrate: how they have considered the PRA’s objectives when setting their impact tolerances; how their response and recovery arrangements ensure firms are able to remain within the PRA impact tolerance; and that scenario testing has been performed with the PRA impact tolerance in mind.",
+                            "rule citation": [
+                                "4.10"
+                            ]
+                        },
+                        {
+                            "Test case no": "9",
+                            "Test case": "Check that TSB has mapped the necessary resources for delivering each important business service.",
+                            "Excerpt": "The Operational Resilience Parts require firms to identify and document the necessary people, processes, technology, facilities, and information (the 'resources') required to deliver each of their important business services.",
+                            "rule citation": [
+                                "5.1"
+                            ]
+                        },
+                        {
+                            "Test case no": "10",
+                            "Test case": "Ensure that TSB's mapping process identifies vulnerabilities by pinpointing critical resources for delivering important business services and assessing their adequacy. Additionally, confirm that TSB's mapping facilitates testing the ability to deliver important business services within impact tolerances.",
+                            "Excerpt": "Adequate mapping should enable firms to meet the following outcomes: (a) The identification of vulnerabilities. Mapping an important business service should allow a firm to identify the resources that are critical to delivering an important business service, ascertain whether they are fit for purpose, and consider what would happen if resources were to become unavailable. (b) Test ability to remain within impact tolerances. Mapping should facilitate the testing of a firm’s ability to deliver important business services within impact tolerances. To design and understand the full implications of scenarios, a map of the relevant business service is necessary. Further information on the approach to testing is outlined in Chapter 6.",
+                            "rule citation": [
+                                "5.2"
+                            ]
+                        },
+                        {
+                            "Test case no": "11",
+                            "Test case": "Verify that TSB takes action when a vulnerability is identified or when testing reveals a limitation in remaining within impact tolerances.",
+                            "Excerpt": "To meet the requirements in the Operational Resilience Parts, the PRA expects firms to take action where a vulnerability is identified, or testing highlights a limitation to remaining within impact tolerances.",
+                            "rule citation": [
+                                "5.3"
+                            ]
+                        },
+                        {
+                            "Test case no": "12",
+                            "Test case": "Verify that TSB has mapped its important business services in sufficient detail to identify vulnerabilities and test its ability to remain within impact tolerances.",
+                            "Excerpt": "The PRA expects firms to map their important business services to the level of detail necessary to use the mapping to identify vulnerabilities and test ability to remain within impact tolerances.",
+                            "rule citation": [
+                                "5.4"
+                            ]
+                        },
+                        {
+                            "Test case no": "13",
+                            "Test case": "Ensure that TSB's mapping information is accessible and usable, and that it is documented in a manner proportionate to the firm's size, scale, and complexity. Confirm that TSB has developed its own methodology and assumptions for mapping that best fit its business.",
+                            "Excerpt": "Mapping information should be accessible and usable for the firm. Firms should document their mapping in a way that is proportionate to their size, scale, and complexity. Firms are expected to develop their own methodology and assumptions for mapping to best fit their business.",
+                            "rule citation": [
+                                "5.8"
+                            ]
+                        },
+                        {
+                            "Test case no": "14",
+                            "Test case": "Verify that TSB conducts regular scenario testing to ensure it can remain within impact tolerances.",
+                            "Excerpt": "The Operational Resilience Parts [22]  require firms to test regularly their ability to remain within impact tolerances in severe but plausible disruption scenarios. Impact tolerances assume a disruption has occurred, and so testing the ability to remain within impact tolerances should not focus on preventing incidents from occurring. The PRA expects firms to focus on recovery and response arrangements.",
+                            "rule citation": [
+                                "6.1"
+                            ]
+                        },
+                        {
+                            "Test case no": "15",
+                            "Test case": "Review TSB's documentation of scenario testing, ensuring it includes assumptions made in scenario design and any identified risks to remaining within impact tolerances.",
+                            "Excerpt": "The Operational Resilience Parts require firms to prepare a written self-assessment of compliance with the Operational Resilience Parts. The PRA expects firms to document details of their scenario testing, including assumptions made in relation to scenario design and any identified risks to the firm’s ability to remain within impact tolerances.",
+                            "rule citation": [
+                                "6.3"
+                            ]
+                        },
+                        {
+                            "Test case no": "16",
+                            "Test case": "Ensure that TSB's scenario testing becomes more sophisticated over time, testing against more severe but plausible scenarios in line with the development of operational resilience for each important business service.",
+                            "Excerpt": "Over time, the PRA expects a firm’s scenario testing to become more sophisticated as firms develop operational resilience for each important business service. Firms would be expected to test against more severe but plausible scenarios, proportionate to the firm and the degree of operational resilience each important business service has.",
+                            "rule citation": [
+                                "6.4"
+                            ]
+                        },
+                        {
+                            "Test case no": "17",
+                            "Test case": "Ensure TSB's board approves and regularly reviews important business services and impact tolerances.",
+                            "Excerpt": "Boards are specifically required to approve the important business services identified for their firm and the impact tolerances that have been set for each of these. The Operational Resilience Parts [25]  require that a firm’s board must approve and regularly review the firm’s important business services, impact tolerances, and written self-assessment (see Chapter 8 of this SS). In delivering this responsibility, boards must regularly review assessments of the firm’s important business services, impact tolerances, and the scenario analyses of its ability to remain within the impact tolerance for these important business services.",
+                            "rule citation": [
+                                "7.1"
+                            ]
+                        },
+                        {
+                            "Test case no": "18",
+                            "Test case": "Confirm that TSB has a self-assessment documenting compliance with the Operational Resilience Parts.",
+                            "Excerpt": "The Operational Resilience Parts require firms to document a self-assessment of their compliance with the Operational Resilience Part.",
+                            "rule citation": [
+                                "8.1"
+                            ]
+                        },
+                        {
+                            "Test case no": "19",
+                            "Test case": "Verify that TSB's self-assessment directly addresses the Operational Resilience Parts and references broader resilience elements only when directly relevant.",
+                            "Excerpt": "A self-assessment should directly address the requirements set out in the Operational Resilience Parts. [32] Broader elements of firms’ operational resilience, for example, operational risk management and business continuity planning, should only be referenced where they directly pertain to the Operational Resilience Parts. [33] Broader elements of firms’ resilience should be captured in existing firm practices.",
+                            "rule citation": [
+                                "8.2"
+                            ]
+                        },
+                        {
+                            "Test case no": "20",
+                            "Test case": "Verify that TSB documents self-assessment to meet the Operational Resilience Parts.",
+                            "Excerpt": "When documenting a self-assessment to meet the Operational Resilience Parts, [34] firms should: list their important business services and state why each of these have been identified, with reference to the PRA’s expectations in Chapter 2 of this SS; specify the impact tolerances set for these important business services and why each impact tolerance has been set, with reference to the expectations in Chapter 3 of this SS; detail their approach to mapping important business services. The PRA expects this to include how the firm has identified the resources that contribute to the delivery of important business services and how they have captured the relationships between these. Firms should also document how they have used mapping to identify vulnerabilities and to support testing activity; describe their strategy for testing their ability to deliver important business services within impact tolerances through severe but plausible scenarios. Firms should also describe the scenarios used, the types of testing undertaken, and specify the scenarios under which firms could not remain within their impact tolerances; identify any lessons learned when undertaking scenario testing or via practical experience including the actions taken to address the issues encountered or risks highlighted; identify the vulnerabilities that threaten their ability to deliver important business services within impact tolerances. Firms should make every effort to remediate these vulnerabilities, detailing the actions taken or planned and justifications for their completion time. The completion time should be appropriate to the size and complexity of the firm, and the PRA will expect large and complex firms to take prompt action; and identify any additional risks to their ability to deliver important business services within impact tolerances arising from elsewhere in their group. In the case of a CRR firm, the self-assessment should also be informed by any work the CRR consolidation entity has undertaken to comply with the requirements under Rules 8.6, 8.7 and 8.8, regarding important group business services and whether each member of the CRR consolidation entity’s consolidation group could remain within impact tolerance.",
+                            "rule citation": [
+                                "8.3"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "policy_code": "ss421",
+                    "policy_test_cases": [
+                        {
+                            "Test case no": "1",
+                            "Test case": "Verify that TSB identify critical services as those essential for supporting core business lines or functions critical to the economy.",
+                            "Excerpt": "Critical services is defined in the Operational Continuity Part and comprises those services that need to be available to one or more business units of a firm or entity of a group in order to provide functions critical to the economy or a firm’s core business lines.",
+                            "rule citation": [
+                                "2.6"
+                            ]
+                        },
+                        {
+                            "Test case no": "2",
+                            "Test case": "Verify that TSB correctly identify their core business lines based on their classification as home or hosted firms.",
+                            "Excerpt": "The PRA’s expectations relating to the identification of services that support a firm’s core business lines vary between home and hosted firms: For home firms, the PRA expects a firm to ensure that its identification of core business lines includes those that are core to the firm, and additionally those that are core to the whole group of which it is a part. For hosted firms, the PRA expects that a firm’s identification of core business lines will identify those that the firm provides, or is involved in providing, and that are core to the whole group of which it is a part. Where a hosted firm has already identified business lines that are core to the firm, it may use these for the identification of relevant critical services. For home and hosted firms with a multiple point of entry (MPE) preferred resolution strategy, where possible the firm should instead identify business lines that are core to the resolution group of which it is a part.",
+                            "rule citation": [
+                                "2.7"
+                            ]
+                        },
+                        {
+                            "Test case no": "3",
+                            "Test case": "Verify that TSB appropriately classify the critical services in accordance with the PRA’s descriptions for the purposes of this SS.",
+                            "Excerpt": "For the purposes of this SS, the PRA describes the ways firms can organise the critical services they receive as: services provided by a business unit within the firm itself to one or more of its other business units (intra-entity); services received from another entity within the group of which they are a part (intra-group);10 services received from an entity that is not part of the same group (non-group provider);11 or a combination of the above.",
+                            "rule citation": [
+                                "2.8"
+                            ]
+                        },
+                        {
+                            "Test case no": "4",
+                            "Test case": "Verify that TSB has established operational arrangements to ensure continuity of critical services during recovery and resolution.",
+                            "Excerpt": "Operational Continuity Chapter 2 requires firms to ensure their operational structure facilitates effective planning for, and taking action during, recovery, resolution, and related restructuring. The PRA expects firms, irrespective of their service provision model, to be able to demonstrate how their operational arrangements supporting critical services facilitate recovery and resolution. Firms should also have appropriate policies, processes, and procedures in place to be able to demonstrate how operational arrangements supporting critical services meet all other relevant expectations in this SS (see also paragraph 4.4) and the requirements in the Operational Continuity Part.",
+                            "rule citation": [
+                                "3.1"
+                            ]
+                        },
+                        {
+                            "Test case no": "5",
+                            "Test case": "Ensure TSB has identified and documented all critical services and their operational arrangements.",
+                            "Excerpt": "The PRA expects firms, irrespective of their service provision model, to undertake identification and documentation of their operational arrangements for critical services.",
+                            "rule citation": [
+                                "4.2"
+                            ]
+                        },
+                        {
+                            "Test case no": "6",
+                            "Test case": "Check that TSB has the capability to ensure continuity of critical services during changes to service provision.",
+                            "Excerpt": "Firms should have the capability to ensure continuity of critical services during possible changes to service provision resulting from restructuring related to recovery or resolution.",
+                            "rule citation": [
+                                "5.1"
+                            ]
+                        },
+                        {
+                            "Test case no": "7",
+                            "Test case": "Verify that TSB's contracts for critical services are resolution-resilient.",
+                            "Excerpt": "Operational Continuity 3.2 sets requirements relating to agreements governing the provision of critical services. Where there are agreements or contracts between two entities, it is expected that the steps to achieve this could include, but are not necessarily limited to:  clauses in agreements or contracts for critical services provided by intra-group or non-group providers that allow for continued provision and use of services in stress and resolution. Contracts or agreements should remain valid and enforceable before and after the firm or a group member has entered stress or resolution, provided there is no default on payment obligations (this does not apply if the contract ends due to an upcoming maturity date); and  clauses in agreements or contracts that allow for the continued use of such products or receipt of such services by entities for a reasonable period of time following their disposal by a group, in order to support restructuring. These clauses should support a firm in designing and implementing TSAs (see Chapter 5).",
+                            "rule citation": [
+                                "6.1"
+                            ]
+                        },
+                        {
+                            "Test case no": "8",
+                            "Test case": "Ensure TSB prevents preferential treatment in the event of financial deterioration of a group member.",
+                            "Excerpt": "In implementing Operational Continuity 4.3, the PRA expects firms to be able to demonstrate that, in the event of a deterioration in the financial circumstances of another group member, a group provider continues to treat the firm in accordance with:  the existing agreement governing the provision of critical services if the firm receives the services from an intra-group service provider; or  the relevant documentation if the firm receives critical services from an intra-entity service provider.",
+                            "rule citation": [
+                                "7.1"
+                            ]
+                        },
+                        {
+                            "Test case no": "9",
+                            "Test case": "Check that TSB has objective service level agreements for critical services.",
+                            "Excerpt": "In implementing Operational Continuity 3.1, the PRA expects firms to ensure that the arrangements for the provision of critical services are objective and well documented, and include the following as a minimum:  clear parameters against which service provision can be measured, including quantifiable and qualitative metrics and performance indicators;  the provider and recipient(s) of the service;17  the nature of the service and its charging structure;  any onward provision to other entities or sub-contracting to non-group providers; and  for intra-group and non-group critical services, provisions that terms and pricing should not change as result of a party to the contract entering stress or resolution (see Chapter 6).",
+                            "rule citation": [
+                                "8.2"
+                            ]
+                        },
+                        {
+                            "Test case no": "10",
+                            "Test case": "Verify that TSB's charging structures for critical services are predictable and transparent.",
+                            "Excerpt": "Charging structures for critical services must be predictable and transparent.",
+                            "rule citation": [
+                                "9.2"
+                            ]
+                        },
+                        {
+                            "Test case no": "11",
+                            "Test case": "Ensure TSB maintains access to operational assets supporting critical services.",
+                            "Excerpt": "The PRA expects firms to be able to demonstrate how access to operational assets supporting critical services will be maintained at the point of stress, resolution, or related restructuring.",
+                            "rule citation": [
+                                "10.1"
+                            ]
+                        },
+                        {
+                            "Test case no": "12",
+                            "Test case": "Check that TSB has financial arrangements to meet payment obligations for critical services.",
+                            "Excerpt": "The PRA expects firms to have arrangements in place to ensure, on a forward-looking basis, that they can meet payment obligations for critical services.",
+                            "rule citation": [
+                                "11.1"
+                            ]
+                        },
+                        {
+                            "Test case no": "13",
+                            "Test case": "Verify that TSB identify risks to fulfilling the requirements under Operational Continuity 2.3, including financial resilience risks related to internal frictions, and take remedial action where possible.",
+                            "Excerpt": "The PRA expects firms to identify risks to fulfilling the requirement under Operational Continuity 2.3, including the expectations under paragraph 11.1 of this SS, and, wherever possible, take remedial action. The PRA expects that the identification of risks related to the financial resilience of service providers includes the risk of internal frictions that may arise in resolution, whereby financial resources that are available within the firm’s group cannot be accessed by a critical service provider in a sufficiently timely manner. These may arise due to issues such as complex or outdated processes, procedures, or systems.",
+                            "rule citation": [
+                                "11.2"
+                            ]
+                        },
+                        {
+                            "Test case no": "14",
+                            "Test case": "Verify that TSB conducts scenario analysis to identify risks to the continuity of critical service provision during recovery and resolution, considering multiple severe but plausible scenarios relevant to their business models, and are able to demonstrate compliance with Operational Continuity 2.3, including the expectations under paragraph 11.1 of this SS.",
+                            "Excerpt": "The PRA expects firms’ identification of risks under paragraph 11.2 of this SS to be supported by scenario analysis that enables the firm to understand the risks to continuity of critical service provision from severe, but plausible, scenarios that the firm may face during recovery and resolution. The PRA expects firms to consider multiple scenarios that are relevant to their business models and are sufficiently severe to test the operational continuity of critical service providers. Firms should be able to use their scenario analysis to demonstrate to the PRA, on request, that they have fulfilled the requirement under Operational Continuity 2.3, including the expectations under paragraph 11.1 of this SS. Scenarios could include, but are not limited to: the impact on a firm’s ability to pay for critical services on time as a result of entering resolution. This may be affected by, but is not necessarily limited to, changes in the price of critical services received, and operational issues experienced by the firm, arising as a result of resolution; the impact on continuity of critical service provision of a critical service provider experiencing delayed receipt of a payment due for services provided to the firm; the impact on continuity of critical service provision of a critical service provider experiencing an expense-revenue mismatch during resolution, which may arise from reduced demand for services from entities in resolution, but constant fixed overheads for the service provider. This may be caused by financial or operational issues;18 the impact on continuity of critical service provision of exceptional costs that a critical services provider may be exposed to in a stress scenario or resolution. These may include, but are not limited to, employee costs (including retention and redundancy payments) or the write down of intangible and relationship-specific assets; and any other risks to operational continuity identified by the firm.",
+                            "rule citation": [
+                                "11.3"
+                            ]
+                        },
+                        {
+                            "Test case no": "15",
+                            "Test case": "Verify that TSB leverage existing capabilities and ensure no duplication of work where outcomes can be demonstrated through these existing capabilities.",
+                            "Excerpt": "The PRA expects that firms should leverage existing capabilities where possible to fulfil the intended outcome of the expectations described in paragraphs 11.3 and 11.4. This could include, but is not limited to, capabilities developed to fulfil the PRA’s recovery planning policy,19 and information available due to firms’ capabilities to fulfil the Bank’s expectations in the SoP ‘Funding in Resolution’.20 Where firms can demonstrate that the intended outcome is met through existing capabilities, the PRA does not expect firms to duplicate work.",
+                            "rule citation": [
+                                "11.5"
+                            ]
+                        },
+                        {
+                            "Test case no": "16",
+                            "Test case": "Verify that TSB ensures intra-group critical service providers have access to liquidity resources.",
+                            "Excerpt": "Specifically for liquidity, the PRA expects firms to ensure that intra-group critical service providers have access to, at a minimum, liquidity resources equivalent to 1/6th of annual fixed overheads of the critical services they provide to the firm (OCIR liquidity resources).",
+                            "rule citation": [
+                                "11.6"
+                            ]
+                        },
+                        {
+                            "Test case no": "17",
+                            "Test case": "Verify that TSB has effective management and governance arrangements for critical service providers.",
+                            "Excerpt": "Operational Continuity 4.2 sets requirements relating to the management and governance structures of intra-entity and intra-group critical service providers. The PRA expects that all intraentity and intra-group critical service providers are supported by effective management and governance arrangements. Effective management and governance supports operational continuity by ensuring clarity of management responsibilities in resolution, sufficient seniority of service provision management, and continued availability of staff critical to ensuring the continuity of service provision.",
+                            "rule citation": [
+                                "12.1"
+                            ]
+                        },
+                        {
+                            "Test case no": "18",
+                            "Test case": "Verify that TSB have effective management and governance arrangements in place for intra-entity and intra-group critical service providers, including the demonstration of senior management responsibility, avoidance of reliance on senior staff performing multiple roles, ensuring appropriate remuneration, availability of staff for OCIR key roles, and change capabilities during resolution and restructuring.",
+                            "Excerpt": "In ensuring that effective management and governance arrangements are in place, the PRA expects firms to take into account other relevant PRA requirements and expectations, including those described in Chapter 1 of this SS. In addition, the PRA expects that the arrangements supporting an intra-entity or intra-group critical service provider’s management and governance structure should include, but are not limited to: being able to demonstrate that the critical service provider has management of sufficient seniority in place who are responsible for the day-to-day running of services, and who could ensure the critical services would continue to be performed in a resolution scenario; ensuring that critical service providers do not rely on senior staff that perform significant duties for other entities in the group. In cases where a member of senior staff has multiple roles within the group, the PRA expects firms to ensure the responsibilities for critical services are not deprioritised in resolution; ensuring that critical services providers do not rely excessively on senior staff remunerated by other entities in the group. Firms should anticipate that staff responsible for the running of the service provider will still need to be remunerated in a resolution scenario. As such, the main part of their remuneration should be paid by the service provider and they should be employed by the service provider, where the critical services provider is a separate group entity; ensuring the availability of staff (including senior staff) in OCIR key job roles that support the continuity of critical services. This should be interpreted as a subset of the key job roles firms may have identified to develop the capabilities described in Chapter 4 of the Bank’s SoP ‘Management, Governance and Communication’;22 and having change capabilities, including sufficient staff and expertise, to support service continuity during changes that arise during resolution and restructuring.",
+                            "rule citation": [
+                                "12.2"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "customer_communications": {
+            "FCA": [
+                {
+                    "policy_code": "mcob22",
+                    "policy_test_cases": [
+                        {
+                            "Test case no": "1",
+                            "Test case": "Verify that TSB communicates information to customers in a way that is clear, fair, and not misleading.",
+                            "Excerpt": "When a firm communicates information to a customer, it must take reasonable steps to communicate in a way that is clear, fair and not misleading.",
+                            "rule citation": [
+                                "2.2.6 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "2",
+                            "Test case": "Ensure that TSB describes any early repayment charge as an 'early repayment charge' in communications to customers.",
+                            "Excerpt": "In any communication to a customer, a firm must: (1) describe any early repayment charge as an 'early repayment charge';",
+                            "rule citation": [
+                                "2.2.3.1 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "3",
+                            "Test case": "Ensure that TSB describes any higher lending charge as a 'higher lending charge' in communications to customers.",
+                            "Excerpt": "In any communication to a customer, a firm must: (2) describe any higher lending charge as a 'higher lending charge';",
+                            "rule citation": [
+                                "2.2.3.2 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "4",
+                            "Test case": "Ensure that TSB describes any lifetime mortgage as a 'lifetime mortgage' in communications to customers.",
+                            "Excerpt": "In any communication to a customer, a firm must: (3) describe any lifetime mortgage as a 'lifetime mortgage';",
+                            "rule citation": [
+                                "2.2.3.3 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "5",
+                            "Test case": "Ensure that TSB describes any home reversion plan as a 'home reversion plan' in communications to customers.",
+                            "Excerpt": "In any communication to a customer, a firm must: (4) describe any home reversion plan as a 'home reversion plan';",
+                            "rule citation": [
+                                "2.2.3.4 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "6",
+                            "Test case": "Ensure that TSB describes any regulated sale and rent back agreement as a 'sale and rent back agreement' in communications to customers.",
+                            "Excerpt": "In any communication to a customer, a firm must: (5) describe any regulated sale and rent back agreement as a 'sale and rent back agreement';",
+                            "rule citation": [
+                                "2.2.3.5 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "7",
+                            "Test case": "Verify that TSB sends information to each customer's address if they have different addresses, or a single copy if they share the same address.",
+                            "Excerpt": "In many circumstances there will be two or more customers under any home finance transaction, or two or more prospective customers looking to enter into the same home finance transaction. In such circumstances, where a rule in MCOB requires the provision of information to such customers and the customers have different addresses, a firm sending out this information should send it to each address. If the customers share the same address it will be sufficient to send a single copy of the information addressed to each of the customers.",
+                            "rule citation": [
+                                "2.2.2 G"
+                            ]
+                        },
+                        {
+                            "Test case no": "8",
+                            "Test case": "Ensure that TSB takes reasonable steps to ensure that any financial promotion of a home purchase plan is clear, fair, and not misleading.",
+                            "Excerpt": "A firm which approves a financial promotion of a home purchase plan must take reasonable steps to ensure that the financial promotion is clear, fair and not misleading.",
+                            "rule citation": [
+                                "2.2.6A R"
+                            ]
+                        },
+                        {
+                            "Test case no": "9",
+                            "Test case": "Verify that TSB uses an approach equivalent to the APR rules when using a figure equivalent to an APR in a financial promotion of a home purchase plan.",
+                            "Excerpt": "If a firm uses a figure equivalent to an APR in a communication of a financial promotion of a home purchase plan, when calculating that figure it must use an approach equivalent to the APR rules.",
+                            "rule citation": [
+                                "2.2.8A R"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "policy_code": "icob",
+                    "policy_test_cases": [
+                        {
+                            "Test case no": "1",
+                            "Test case": "Ensure that TSB treats customers as consumers when it is unclear whether they are consumers or commercial customers.",
+                            "Excerpt": "If it is not clear in a particular case whether a customer is a consumer or a commercial customer, a firm must treat the customer as a consumer.",
+                            "rule citation": [
+                                "2.1.2 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "2",
+                            "Test case": "Ensure that all communications and financial promotions by TSB are clear, fair, and not misleading.",
+                            "Excerpt": "When a firm communicates information, including a financial promotion, to a customer it must ensure that is clear, fair and not misleading.",
+                            "rule citation": [
+                                "2.2.2 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "3",
+                            "Test case": "Ensure that TSB manages conflicts of interest fairly, both between itself and its customers and between a customer and another client, including when soliciting or accepting inducements.",
+                            "Excerpt": "Principle 8 requires a firm to manage conflicts of interest fairly, both between itself and its customers and between a customer and another client. This principle extends to soliciting or accepting inducements where this would conflict with a firm's duties to its customers. A firm that offers such inducements should consider whether doing so conflicts with its obligations under: (a) Principles 1 and 6 to act with integrity and treat customers fairly; and (b) the customer’s best interests rule.",
+                            "rule citation": [
+                                "2.3.1.1 G"
+                            ]
+                        },
+                        {
+                            "Test case no": "4",
+                            "Test case": "Verify that TSB has determined the necessary records to maintain in accordance with high-level record-keeping requirements and its specific business needs.",
+                            "Excerpt": "Firms will need to decide what records they need to keep in line with the high-level record-keeping requirements and their own business needs.",
+                            "rule citation": [
+                                "2.4.1 G"
+                            ]
+                        },
+                        {
+                            "Test case no": "5",
+                            "Test case": "Ensure that TSB acts honestly, fairly, and professionally in the best interests of its customers.",
+                            "Excerpt": "A firm must act honestly, fairly and professionally in accordance with the best interests of its customer.",
+                            "rule citation": [
+                                "2.5.-1 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "6",
+                            "Test case": "Verify that TSB provides customers with appropriate information about a policy in a timely and comprehensible manner to enable informed decision-making about the proposed arrangements.",
+                            "Excerpt": "A firm must ensure that a customer is given appropriate information about a policy in good time and in a comprehensible form so that the customer can make an informed decision about the arrangements proposed.",
+                            "rule citation": [
+                                "6.1.5 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "7",
+                            "Test case": "Ensure that TSB's policy allows consumers to cancel insurance contracts without penalty and without giving any reason within the specified timeframes: 30 days for contracts with pure protection or payment protection elements, and 14 days for other insurance or distance contracts.",
+                            "Excerpt": "A consumer has a right to cancel, without penalty and without giving any reason, within: 30 days for a contract of insurance which is, or has elements of, a pure protection contract or payment protection contract; or 14 days for any other contract of insurance or distance contract.",
+                            "rule citation": [
+                                "7.1.1 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "8",
+                            "Test case": "Ensure that TSB handles claims promptly and fairly.",
+                            "Excerpt": "An insurer must: handle claims promptly and fairly;",
+                            "rule citation": [
+                                "8.1.1.1 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "9",
+                            "Test case": "Ensure that TSB provides reasonable guidance to help policyholders make a claim and offers appropriate information on the progress of their claims.",
+                            "Excerpt": "An insurer must: provide reasonable guidance to help a policyholder make a claim and appropriate information on its progress;",
+                            "rule citation": [
+                                "8.1.1.2 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "10",
+                            "Test case": "Ensure that TSB does not unreasonably reject claims, including by terminating or avoiding policies.",
+                            "Excerpt": "An insurer must: not unreasonably reject a claim (including by terminating or avoiding a policy);",
+                            "rule citation": [
+                                "8.1.1.3 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "11",
+                            "Test case": "Verify that TSB settles claims promptly once settlement terms are agreed.",
+                            "Excerpt": "An insurer must: settle claims promptly once settlement terms are agreed.",
+                            "rule citation": [
+                                "8.1.1.4 R"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "policy_code": "fg225",
+                    "policy_test_cases": [
+                        {
+                            "Test case no": "1",
+                            "Test case": "Verify that TSB has established a Consumer Duty framework that sets the standard of care for customers in retail financial markets.",
+                            "Excerpt": "The Consumer Duty ('the Duty') sets the standard of care that firms should give to customers in retail financial markets.",
+                            "rule citation": [
+                                "1.1"
+                            ]
+                        },
+                        {
+                            "Test case no": "2",
+                            "Test case": "Ensure TSB's products and services are designed to meet customers' needs and provide fair value.",
+                            "Excerpt": "Provide products and services that are designed to meet customers' needs, that they know provide fair value, that help customers achieve their financial objectives and which do not cause them harm.",
+                            "rule citation": [
+                                "1.9"
+                            ]
+                        },
+                        {
+                            "Test case no": "3",
+                            "Test case": "Verify that TSB communicates effectively with customers to enable informed decision-making.",
+                            "Excerpt": "Communicate and engage with customers so that they can make effective, timely and properly informed decisions about financial products and services and can take responsibility for their actions and decisions.",
+                            "rule citation": [
+                                "1.9"
+                            ]
+                        },
+                        {
+                            "Test case no": "4",
+                            "Test case": "Check that TSB does not exploit customers' behavioral biases or vulnerabilities.",
+                            "Excerpt": "Not seek to exploit customers' behavioural biases, lack of knowledge or characteristics of vulnerability.",
+                            "rule citation": [
+                                "1.9"
+                            ]
+                        },
+                        {
+                            "Test case no": "5",
+                            "Test case": "Verify that TSB's board or equivalent governing body takes full responsibility for embedding the Duty within the firm, and that senior managers are held accountable for the outcomes experienced by customers.",
+                            "Excerpt": "Ensure that their board or equivalent governing body takes full responsibility for ensuring that the Duty is properly embedded within the firm, and senior managers are accountable for the outcomes their customers are experiencing.",
+                            "rule citation": [
+                                "1.9"
+                            ]
+                        },
+                        {
+                            "Test case no": "6",
+                            "Test case": "Verify that TSB monitors and reviews customer outcomes regularly.",
+                            "Excerpt": "Monitor and regularly review the outcomes that their customers are experiencing in practice and take action to address any risks to good customer outcomes.",
+                            "rule citation": [
+                                "1.9"
+                            ]
+                        },
+                        {
+                            "Test case no": "7",
+                            "Test case": "Ensure TSB's products and services are governed to meet the Consumer Duty outcomes.",
+                            "Excerpt": "The 'four outcomes which are a suite of rules and guidance setting more detailed expectations for firm conduct in four areas that represent key elements of the firm-consumer relationship: the governance of products and services, price and value, consumer understanding, and consumer support.",
+                            "rule citation": [
+                                "1.3"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "policy_code": "perg8",
+                    "policy_test_cases": [
+                        {
+                            "Test case no": "1",
+                            "Test case": "Ensure that TSB's policy prohibits communicating invitations or inducements to engage in investment activity unless the communicator is an authorised person, the communication is approved by an authorised person, or the communication is exempt under the Financial Promotion Order.",
+                            "Excerpt": "A person must not, in the course of business, communicate an invitation or inducement to engage in investment activity unless: (1) he is an authorised person; or (2) the content of the communication is approved for the purposes of section 21 by an authorised person; or (3) the communication is exempt under an order made by the Treasury under section 21(5) - the Financial Promotion Order (as amended).",
+                            "rule citation": [
+                                "8.3.1 G"
+                            ]
+                        },
+                        {
+                            "Test case no": "2",
+                            "Test case": "Ensure that TSB's policy addresses the applicability of restrictions on communications originating outside the United Kingdom, specifically if they are capable of having an effect within the United Kingdom.",
+                            "Excerpt": "Section 21(3) of the Act states that, in the case of a communication originating outside the United Kingdom, the restriction in section 21(1) applies only if it is capable of having an effect in the United Kingdom.",
+                            "rule citation": [
+                                "8.8.1 G"
+                            ]
+                        },
+                        {
+                            "Test case no": "3",
+                            "Test case": "Ensure that TSB's policy on the promotion of life policies does not invite or induce a person to enter into a life policy with an unauthorised person, unless the person is exempt in relation to effecting or carrying out contracts of insurance of the relevant class, or is a company authorised in Guernsey, the Isle of Man, Pennsylvania, Iowa, or Jersey.",
+                            "Excerpt": "Section 8.19 : Additional restriction on the promotion of life policies Additional restriction on the promotion of life policies Article 10 of the Financial Promotion Order (Application to qualifying contracts of insurance) precludes any of the exemptions from applying to a financial promotion which invites or induces a person to enter into a life policy with a person who is not: (1) an authorised person; or (2) an exempt person who is exempt in relation to effecting or carrying out contracts of insurance of the class to which the promotion relates; or (3) [deleted] (4) a company authorised in one of the following countries or states to carry on the class of insurance business being promoted: (a) Guernsey; or (b) the Isle of Man; or (c) Pennsylvania; or (d) Iowa; (e) Jersey.",
+                            "rule citation": [
+                                "8.19.1 G"
+                            ]
+                        },
+                        {
+                            "Test case no": "4",
+                            "Test case": "Ensure that TSB does not promote unregulated collective investment schemes unless the promotion is approved by an authorised person or is exempt, complies with conditions set by the Treasury or FCA, and does not approve financial promotions it cannot communicate itself.",
+                            "Excerpt": "Section 21 precludes the promotion by unauthorised persons of unregulated collective investment schemes unless the financial promotion is approved by an authorised person or is exempt. Section 238 then precludes the promotion of an unregulated collective investment scheme by authorised persons except where: (1) there is an exemption in an order made by the Treasury under section 238(6); or (2) the financial promotion is permitted under rules made by the FCA under section 238(5) to exempt the promotion, otherwise than to the general public, of schemes of certain descriptions; or (3) the scheme is a single property scheme and its promotion is exempt under regulations made by the Treasury under section 239 of the Act (Single property schemes). In addition, section 240 of the Act (Restriction on approval of promotion) precludes an authorised person from approving a financial promotion for the purpose of section 21 if he would not be able to communicate it himself under section 238.",
+                            "rule citation": [
+                                "8.20.2 G"
+                            ]
+                        },
+                        {
+                            "Test case no": "5",
+                            "Test case": "Determine if TSB's policy distinguishes between personal recommendations and those issued exclusively to the public.",
+                            "Excerpt": "A recommendation is not a personal recommendation if it is issued exclusively to the public.",
+                            "rule citation": [
+                                "8.30B.22 G"
+                            ]
+                        },
+                        {
+                            "Test case no": "6",
+                            "Test case": "Ensure that TSB's marketing of AIFs to retail clients complies with the restrictions on financial promotion and scheme promotion, and that any such marketing does not breach any regulations.",
+                            "Excerpt": "Regulation 46 (Application of the financial promotion and scheme promotion restrictions) provides that where a person may market an AIF under regulation 49, 50 or 51: (a) to the extent that such marketing falls within section 21(1) (restrictions on financial promotion) or 238(1) (restrictions on promotion) of the Act, the person may market the AIF to a retail client only if the person does so without breaching the restriction in that section; and (b) to the extent that any activity falling within section 21(1) or 238(1) of the Act does not amount to marketing by an AIFM or an investment firm for the purposes of Part 6 of the AIFMD UK regulations, the restriction in that section applies to the person.",
+                            "rule citation": [
+                                "8.37.14.1 G"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "policy_code": "conc2",
+                    "policy_test_cases": [
+                        {
+                            "Test case no": "1",
+                            "Test case": "Verify that TSB does not target customers with regulated credit agreements that are unsuitable for them.",
+                            "Excerpt": "targeting customers with regulated credit agreements which are unsuitable for them, by virtue of their indebtedness, poor credit history, age, health, disability or any other reason;",
+                            "rule citation": [
+                                "2.2.2.1 G"
+                            ]
+                        },
+                        {
+                            "Test case no": "2",
+                            "Test case": "Ensure that TSB does not subject customers to high-pressure selling or aggressive behavior.",
+                            "Excerpt": "subjecting customers to high-pressure selling, aggressive or oppressive behaviour, or unfair coercion;",
+                            "rule citation": [
+                                "2.2.2.2 G"
+                            ]
+                        },
+                        {
+                            "Test case no": "3",
+                            "Test case": "Check that TSB allows customers who are unable to make payments a reasonable time and opportunity to meet repayments.",
+                            "Excerpt": "not allowing customers who are unable to make payments a reasonable time and opportunity to meet repayments;",
+                            "rule citation": [
+                                "2.2.2.3 G"
+                            ]
+                        },
+                        {
+                            "Test case no": "4",
+                            "Test case": "Verify that TSB takes steps to repossess a customer's home only as a last resort.",
+                            "Excerpt": "taking steps to repossess a customer's home, other than as a last resort.",
+                            "rule citation": [
+                                "2.2.2.4 G"
+                            ]
+                        },
+                        {
+                            "Test case no": "5",
+                            "Test case": "Ensure that TSB does not carry on a credit-related regulated activity under a misleading name.",
+                            "Excerpt": "A firm must not carry on a credit-related regulated activity under a name which is likely to mislead customers about the status of the firm or the nature of its business, or in any other way.",
+                            "rule citation": [
+                                "2.2.3 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "6",
+                            "Test case": "Confirm that TSB does not enter into an agreement with a customer for an optional additional product unless the customer has actively elected to obtain that product.",
+                            "Excerpt": "A firm must not enter into an agreement with a customer under which a charge is, or may become, payable for an optional additional product unless the customer has actively elected to obtain that specific product.",
+                            "rule citation": [
+                                "2.2.6.1 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "7",
+                            "Test case": "Verify that TSB provides credit card cheques only to customers who have requested them.",
+                            "Excerpt": "A firm may provide credit card cheques only to a customer who has asked for them.",
+                            "rule citation": [
+                                "2.3.5.1 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "8",
+                            "Test case": "Ensure that TSB explains the key features of a regulated credit agreement to enable the customer to make an informed choice.",
+                            "Excerpt": "A firm must explain the key features of a regulated credit agreement to enable the customer to make an informed choice as required by CONC 4.2.5R (adequate explanations).",
+                            "rule citation": [
+                                "2.3.2 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "9",
+                            "Test case": "Check that TSB discloses the name and address of any credit reference agency consulted if a credit agreement is not made.",
+                            "Excerpt": "Not later than the lender ('L') informs a credit broker that L is not willing to make a regulated credit agreement, L must, unless L informs the customer directly that L is not willing to make the agreement, inform the credit broker of the name and address (including an appropriate e-mail address) of any credit reference agency from which L has, during the negotiations relating to the proposed agreement, applied for information about the financial standing of the customer.",
+                            "rule citation": [
+                                "2.4.2.1 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "10",
+                            "Test case": "Verify that TSB does not give a person a credit token if they have not requested it.",
+                            "Excerpt": "A firm must not give a person a credit token if he has not asked for it.",
+                            "rule citation": [
+                                "2.9.2.1 R"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "policy_code": "conc3",
+                    "policy_test_cases": [
+                        {
+                            "Test case no": "1",
+                            "Test case": "Verify that TSB ensures all financial promotions and communications are clear, fair, and not misleading.",
+                            "Excerpt": "A firm must ensure that a communication or a financial promotion is clear, fair, and not misleading.",
+                            "rule citation": [
+                                "3.3.1.1 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "2",
+                            "Test case": "Ensure that TSB includes a representative APR in financial promotions where required.",
+                            "Excerpt": "A financial promotion must include the representative APR if it: (a) states or implies that credit is available to individuals who might otherwise consider their access to credit restricted;",
+                            "rule citation": [
+                                "3.5.7.1 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "3",
+                            "Test case": "Check that TSB does not use restricted expressions in financial promotions.",
+                            "Excerpt": "A financial promotion must not include: (b) the expression 'interest free' or any similar expression indicating that a customer is liable to pay no greater amount in respect of a transaction financed by credit than he would be liable to pay as a cash purchaser for the like transaction, except where the total amount payable does not exceed the cash price;",
+                            "rule citation": [
+                                "3.5.12.2 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "4",
+                            "Test case": "Verify that TSB's marketing materials and communications related to high-cost short-term credit products prominently display the required risk warning: 'Warning: Late repayment can cause you serious money problems. For help, go to moneyhelper.org.uk'.",
+                            "Excerpt": "A firm must not communicate or approve for communication a financial promotion in relation to high-cost short-term credit, unless it contains the following risk warning: 'Warning: Late repayment can cause you serious money problems. For help, go to moneyhelper.org.uk'.",
+                            "rule citation": [
+                                "3.4.1.1 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "5",
+                            "Test case": "Ensure that TSB includes a representative example in its financial promotions when indicating a rate of interest or an amount relating to the cost of credit.",
+                            "Excerpt": "Where a financial promotion indicates a rate of interest or an amount relating to the cost of credit whether expressed as a sum of money or a proportion of a specified amount, the financial promotion must also: (a) include a representative example in accordance with CONC 3.5.5 R.",
+                            "rule citation": [
+                                "3.5.3 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "6",
+                            "Test case": "Check that TSB does not approve financial promotions for personal visits, telephone conversations, or other interactive dialogues.",
+                            "Excerpt": "A firm must not approve a financial promotion to be made in the course of a personal visit, telephone conversation or other interactive dialogue.",
+                            "rule citation": [
+                                "3.11.2 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "7",
+                            "Test case": "Verify that TSB's financial promotions specify the legal name of the firm.",
+                            "Excerpt": "A firm must ensure that a financial promotion or a communication with a customer specifies the legal name of the firm as it appears in the Financial Services Register and not merely a trading name.",
+                            "rule citation": [
+                                "3.7.5 R"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "policy_code": "bcobs2",
+                    "policy_test_cases": [
+                        {
+                            "Test case no": "1",
+                            "Test case": "Verify that TSB communicates information to customers in a way that is clear, fair, and not misleading.",
+                            "Excerpt": "A firm or other provider must take reasonable steps to ensure that a communication, financial promotion or payment service or electronic money promotion is fair, clear and not misleading.",
+                            "rule citation": [
+                                "2.2.1 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "2",
+                            "Test case": "Ensure that TSB includes a summary box in direct offer financial promotions related to savings accounts.",
+                            "Excerpt": "A firm must ensure that a direct offer financial promotion in relation to a savings account includes a summary box in the form set out in BCOBS 2 Annex 1R.",
+                            "rule citation": [
+                                "2.2A.1.1 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "3",
+                            "Test case": "Ensure that TSB includes the required information in its direct offer financial promotions, specifically general information about overdrafts and the availability of tools such as the overdraft cost calculator and overdraft eligibility tool, when the promotion is made in writing and relates to a payment account.",
+                            "Excerpt": "A firm must ensure that a direct offer financial promotion includes the information set out in ■ BCOBS 2.2B.2R if: (a) it relates to an account, other than a current account mortgage which: (i) is a payment account within the meaning of the Payment Accounts Regulations; and (ii) does not fall within paragraph (2); and (b) it is made in writing.",
+                            "rule citation": [
+                                "2.2B.1.1 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "4",
+                            "Test case": "Verify that TSB includes its name in each communication and financial promotion.",
+                            "Excerpt": "A firm must ensure that each communication made to a banking customer and each financial promotion communicated or approved by the firm includes the name of the firm.",
+                            "rule citation": [
+                                "2.3.1.1 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "5",
+                            "Test case": "Ensure that TSB's financial promotions do not emphasize potential benefits without giving a fair indication of relevant risks.",
+                            "Excerpt": "A firm must ensure that each communication made to a banking customer and each financial promotion communicated or approved by the firm is accurate and, in particular, does not emphasise any potential benefits of a retail banking service without also giving a fair and prominent indication of any relevant risks.",
+                            "rule citation": [
+                                "2.3.1.2 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "6",
+                            "Test case": "Check that TSB's financial promotions comparing services are meaningful and presented in a fair and balanced way.",
+                            "Excerpt": "If a communication or a financial promotion compares a retail banking service with one or more other retail banking service, the firm must ensure that the comparison is meaningful and presented in a fair and balanced way.",
+                            "rule citation": [
+                                "2.3.7 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "7",
+                            "Test case": "Verify that TSB provides a prominent statement about tax treatment or interest rate changes in financial promotions.",
+                            "Excerpt": "If a communication or a financial promotion in relation to a retail banking service refers to a particular tax treatment or rate of interest payable, a firm must ensure that a prominent statement that the tax treatment or the rate of interest payable depends on the individual circumstances of each banking customer and may be subject to change in the future.",
+                            "rule citation": [
+                                "2.3.8 R"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "policy_code": "bcobs3",
+                    "policy_test_cases": [
+                        {
+                            "Test case no": "1",
+                            "Test case": "Verify that TSB provides consumers with the distance marketing information in good time before they are bound by a distance contract or offer.",
+                            "Excerpt": "A firm must provide a consumer with the distance marketing information in good time before the consumer is bound by a distance contract or offer.",
+                            "rule citation": [
+                                "3.1.2.1 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "2",
+                            "Test case": "Ensure that TSB makes its identity and the purpose of its call clear at the beginning of any voice telephony communication with a consumer.",
+                            "Excerpt": "When a firm makes a voice telephony communication to a consumer, it must make its identity and the purposes of its call explicitly clear at the beginning of the conversation.",
+                            "rule citation": [
+                                "3.1.4 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "3",
+                            "Test case": "Verify that TSB communicates all contractual terms and conditions in a durable medium before the consumer is bound by any distance contract or offer.",
+                            "Excerpt": "A firm must communicate to the consumer all the contractual terms and conditions and the information referred to in the distance marketing disclosure rules in a durable medium available and accessible to the consumer in good time before the consumer is bound by any distance contract or offer.",
+                            "rule citation": [
+                                "3.1.6 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "4",
+                            "Test case": "Ensure that TSB does not commence performance of a distance contract until the consumer has given their approval.",
+                            "Excerpt": "The performance of the distance contract may only begin after the consumer has given his approval.",
+                            "rule citation": [
+                                "3.1.8 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "5",
+                            "Test case": "Verify that TSB provides the distance marketing information in a durable medium if the contract is concluded using a means of communication that does not allow prior disclosure.",
+                            "Excerpt": "A firm may provide the distance marketing information and the contractual terms and conditions in a durable medium immediately after the conclusion of a distance contract, if the contract has been concluded at a consumer's request using a means of distance communication that does not enable the provision of that information in that form in good time before the consumer is bound by any distance contract or offer.",
+                            "rule citation": [
+                                "3.1.12 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "6",
+                            "Test case": "Ensure that TSB does not enforce any obligations under a distance contract in the event of an unsolicited supply of services.",
+                            "Excerpt": "A firm must not enforce, or seek to enforce, any obligations under a distance contract against a consumer, in the event of an unsolicited supply of services, the absence of a reply not constituting consent.",
+                            "rule citation": [
+                                "3.1.15.1 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "7",
+                            "Test case": "Verify that TSB provides clear and unambiguous information about prices, including whether they are inclusive of tax and delivery costs.",
+                            "Excerpt": "If a firm refers to price, it must do so clearly and unambiguously, indicating whether the price is inclusive of tax and delivery costs.",
+                            "rule citation": [
+                                "3.2.3 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "8",
+                            "Test case": "Ensure that TSB's commercial communications are clearly identifiable and that promotional offers and competitions are clearly presented.",
+                            "Excerpt": "A firm must ensure that commercial communications which are part of, or constitute, an information society service, comply with the following conditions: the commercial communication must be clearly identifiable as such; the person on whose behalf the commercial communication is made must be clearly identifiable; promotional offers must be clearly identifiable as such, and the conditions that must be met to qualify for them must be easily accessible and presented clearly and unambiguously; and promotional competitions or games must be clearly identifiable as such, and the conditions for participation must be easily accessible and presented clearly and unambiguously.",
+                            "rule citation": [
+                                "3.2.4 R"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "policy_code": "bcobs4",
+                    "policy_test_cases": [
+                        {
+                            "Test case no": "1",
+                            "Test case": "Verify that TSB provides or makes available appropriate information about a retail banking service and any deposit made in relation to that service in good time, in an appropriate medium, and in easily understandable language.",
+                            "Excerpt": "A firm must provide or make available to a banking customer appropriate information about a retail banking service and any deposit made in relation to that retail banking service: (1) in good time; (2) in an appropriate medium; and (3) in easily understandable language and in a clear and comprehensible form;",
+                            "rule citation": [
+                                "4.1.1 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "2",
+                            "Test case": "Ensure that TSB provides the terms and conditions of the contract for a retail banking service on paper or in another durable medium in good time before a banking customer is bound by them.",
+                            "Excerpt": "A firm should provide the terms and conditions of the contract for a retail banking service on paper or in another durable medium in good time before a banking customer is bound by them.",
+                            "rule citation": [
+                                "4.1.2.2 G"
+                            ]
+                        },
+                        {
+                            "Test case no": "3",
+                            "Test case": "Check that TSB prominently shows the rate of interest that applies to a savings account alongside any account balance information included in statements or online banking services.",
+                            "Excerpt": "A firm should ensure that the rate of interest that applies to a savings account is prominently shown alongside, or in close proximity to any account balance information included in: (a) any paper or online statement of account provided or made available by the firm; (b) where the firm provides an online banking service to the banking customer, the first personalised page of the firm's website that the banking customer accesses when using this service;",
+                            "rule citation": [
+                                "4.1.2.2B G"
+                            ]
+                        },
+                        {
+                            "Test case no": "4",
+                            "Test case": "Verify that TSB informs a banking customer of the current rate of interest that applies to a savings account on the telephone or in a branch at the customer's request.",
+                            "Excerpt": "A firm should inform a banking customer of the current rate of interest that applies to a savings account on the telephone or in a branch of the firm at the request of the banking customer.",
+                            "rule citation": [
+                                "4.1.2.2D G"
+                            ]
+                        },
+                        {
+                            "Test case no": "5",
+                            "Test case": "Ensure that TSB publishes the current rate of interest that applies to each savings account it provides on its website and keeps it continuously up to date.",
+                            "Excerpt": "A firm should publish the current rate of interest that applies to each savings account it provides on its website (whether or not the savings account is available to new customers) and ensure that this is kept continuously up to date and is easily accessible by a banking customer.",
+                            "rule citation": [
+                                "4.1.2.2E G"
+                            ]
+                        },
+                        {
+                            "Test case no": "6",
+                            "Test case": "Ensure that TSB provides reasonable notice to banking customers on paper or in another durable medium before making any changes to terms, conditions, charges, or interest rates that would disadvantage the customer.",
+                            "Excerpt": "Where a firm proposes to exercise a power to make: (a) a change to any term or condition of the agreement; or (b) a change to any charge; or (c) a material change to any rate of interest; that applies to the retail banking service and that will be to the disadvantage of a banking customer, the firm should provide reasonable notice to the banking customer on paper or in another durable medium before the change takes effect,",
+                            "rule citation": [
+                                "4.1.2.3 G"
+                            ]
+                        },
+                        {
+                            "Test case no": "7",
+                            "Test case": "Verify that TSB provides notice of the expiry of an introductory, promotional, or preferential rate of interest to the banking customer on paper or in another durable medium within a reasonable period before that rate ceases to apply.",
+                            "Excerpt": "where, under a contract for a retail banking service, an introductory, promotional or preferential rate of interest applies to the retail banking service until a specified future date or the end of a fixed period, a firm should provide notice of the expiry of the application of that rate of interest to the banking customer on paper or in another durable medium within a reasonable period before that rate of interest ceases to apply.",
+                            "rule citation": [
+                                "4.1.2.5 G"
+                            ]
+                        },
+                        {
+                            "Test case no": "8",
+                            "Test case": "Ensure that TSB provides regular statements of account to a banking customer on paper or in another durable medium as appropriate to the type of retail banking service provided.",
+                            "Excerpt": "A firm must provide or make available to a banking customer on paper or in another durable medium such regular statements of account as are appropriate to the type of retail banking service provided,",
+                            "rule citation": [
+                                "4.2.1.1 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "9",
+                            "Test case": "Check that TSB does not charge for providing information which is required to be provided by regular statements of account.",
+                            "Excerpt": "A firm must not charge for providing information which is required to be provided by (1).",
+                            "rule citation": [
+                                "4.2.1.2 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "10",
+                            "Test case": "Verify that TSB provides a true copy of any statement of account to a banking customer on paper or in another durable medium within a reasonable period of time following a request.",
+                            "Excerpt": "A firm must provide a banking customer with a true copy of any statement of account provided to him under (1) on paper or in another durable medium within a reasonable period of time following a request to that effect made by or on his behalf.",
+                            "rule citation": [
+                                "4.2.1.3 R"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "policy_code": "sysc5",
+                    "policy_test_cases": [
+                        {
+                            "Test case no": "1",
+                            "Test case": "Verify that TSB employs personnel with the necessary skills, knowledge, and expertise for their responsibilities.",
+                            "Excerpt": "A firm (other than a common platform firm) must employ personnel with the skills, knowledge and expertise necessary for the discharge of the responsibilities allocated to them.",
+                            "rule citation": [
+                                "5.1.1 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "2",
+                            "Test case": "Ensure TSB's systems and controls can assess the suitability of individuals acting for the firm, focusing on honesty and competence.",
+                            "Excerpt": "A firm's systems and controls should enable it to satisfy itself of the suitability of anyone who acts for it. This includes assessing an individual's honesty and competence.",
+                            "rule citation": [
+                                "5.1.2 G"
+                            ]
+                        },
+                        {
+                            "Test case no": "3",
+                            "Test case": "Ensure that TSB's senior personnel have defined arrangements for the segregation of duties and the prevention of conflicts of interest within the firm.",
+                            "Excerpt": "The senior personnel of a common platform firm must define arrangements concerning the segregation of duties within the firm and the prevention of conflicts of interest.",
+                            "rule citation": [
+                                "5.1.7 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "4",
+                            "Test case": "Verify that TSB ensures no single individual has unrestricted authority to initiate transactions, bind the firm, make payments, and account for them.",
+                            "Excerpt": "A firm should normally ensure that no single individual has unrestricted authority to do all of the following: (1) initiate a transaction; (2) bind the firm; (3) make payments; and (4) account for it.",
+                            "rule citation": [
+                                "5.1.9 G"
+                            ]
+                        },
+                        {
+                            "Test case no": "5",
+                            "Test case": "Ensure TSB has adequate compensating controls if complete segregation of duties is not possible.",
+                            "Excerpt": "Where a firm is unable to ensure the complete segregation of duties (for example, because it has a limited number of staff), it should ensure that there are adequate compensating controls in place (for example, frequent review of an area by relevant senior managers).",
+                            "rule citation": [
+                                "5.1.10 G"
+                            ]
+                        },
+                        {
+                            "Test case no": "6",
+                            "Test case": "Confirm that TSB monitors and evaluates the adequacy and effectiveness of its systems and internal control mechanisms regularly.",
+                            "Excerpt": "A management company must monitor and, on a regular basis, evaluate the adequacy and effectiveness of its systems, internal control mechanisms and arrangements established in accordance with this chapter, and take appropriate measures to address any deficiencies.",
+                            "rule citation": [
+                                "5.1.15 G"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "policy_code": "fg243",
+                    "policy_test_cases": [
+                        {
+                            "Test case no": "1",
+                            "Test case": "Verify that TSB ensures all sustainability-related claims about their products and services are fair, clear, and not misleading.",
+                            "Excerpt": "Our anti-greenwashing rule, in the Environmental, Social and Governance (ESG) Sourcebook (ESG 4.3.1R), requires firms to ensure that any reference to the sustainability characteristics of a product or service is: consistent with the sustainability characteristics of the product or service, and is fair, clear and not misleading.",
+                            "rule citation": [
+                                "2.1"
+                            ]
+                        },
+                        {
+                            "Test case no": "2",
+                            "Test case": "Ensure TSB's sustainability claims are substantiated with robust and credible evidence.",
+                            "Excerpt": "The claims firms make should be factually correct. Firms should not state or imply features of a product or service that are not true. Nor should they overstate or exaggerate a product or service’s sustainability or positive environmental and/or social impact. Claims should only give the impression that a product or service has the sustainability characteristics that it really has. Claims can also be misleading if they provide conflicting or contradictory information.",
+                            "rule citation": [
+                                "2.18"
+                            ]
+                        },
+                        {
+                            "Test case no": "3",
+                            "Test case": "Verify that TSB's sustainability claims are complete and do not omit or hide important information.",
+                            "Excerpt": "Claims should give a representative picture of the product or service. Firms should not omit or hide important information that might influence decision-making.",
+                            "rule citation": [
+                                "2.28"
+                            ]
+                        },
+                        {
+                            "Test case no": "4",
+                            "Test case": "Check that TSB's sustainability-related comparisons are fair and meaningful.",
+                            "Excerpt": "The claims firms make when comparing a product or service, either to one of their previous versions or to a competitors’, should be fair and meaningful. Comparisons should enable the audience to make informed choices about the products or services.",
+                            "rule citation": [
+                                "2.33"
+                            ]
+                        },
+                        {
+                            "Test case no": "5",
+                            "Test case": "Ensure TSB regularly reviews and updates their sustainability claims and supporting evidence.",
+                            "Excerpt": "It is also important that firms regularly review their claims and any evidence that supports them, to ensure the evidence is still relevant for so long as those claims are being communicated (eg, a financial promotion is live). Firms should also ensure that their claims remain compliant with the anti‑greenwashing rule on an ongoing basis. Firms which approve financial promotions subject to the rules in COBS 4 should consider compliance with the anti‑greenwashing rule as part of their monitoring of the ongoing compliance of the financial promotion which they have approved.",
+                            "rule citation": [
+                                "2.20"
+                            ]
+                        },
+                        {
+                            "Test case no": "6",
+                            "Test case": "Verify that TSB's use of visuals in sustainability claims is consistent with the product's characteristics.",
+                            "Excerpt": "Firms should also be aware of the overall impression a visual presentation of a claim can create. The images, logos and colours used are an important part of the overall presentation of a claim. Firms should consider how images, logos and colours together may be perceived by the audience when presented alongside other sustainability characteristics of a product or service. Claims may be undermined if what they say is factually correct, but their visual presentation conveys a different impression.",
+                            "rule citation": [
+                                "2.24"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "policy_code": "fg154",
+                    "policy_test_cases": [
+                        {
+                            "Test case no": "1",
+                            "Test case": "Verify that TSB's social media communications are clearly identifiable as financial promotions when applicable.",
+                            "Excerpt": "There is a specific requirement that financial promotions for investment products3 are identifiable as such. Our view is that – for social media in particular – it is important that, in all cases, it is clear that a promotion is a promotion. This can be by labelling the promotion as such, or it may be clear from the context.",
+                            "rule citation": [
+                                "1.6"
+                            ]
+                        },
+                        {
+                            "Test case no": "2",
+                            "Test case": "Ensure that all TSB's social media communications are clear, fair, and not misleading.",
+                            "Excerpt": "We remind firms that, under Principle 7 of the Principles for Businesses, it remains a fundamental requirement that all communications (including financial promotions) are clear, fair and not misleading. Promotions that fail to be 'clear, fair and not misleading' can pose a risk as they could lead consumers to buy the wrong product – ultimately with unhappy outcomes for them and for firms.",
+                            "rule citation": [
+                                "1.7"
+                            ]
+                        },
+                        {
+                            "Test case no": "3",
+                            "Test case": "Check that TSB includes appropriate risk warnings in social media promotions where required.",
+                            "Excerpt": "We remind firms that there are requirements to include risk warnings or other statements in promotions for certain products/services. These rules are media-neutral and therefore apply to social media as they would to any other medium. When taken into account with our supervisory approach to standalone compliance, this poses particular challenges for the use of character-limited social media.",
+                            "rule citation": [
+                                "1.12"
+                            ]
+                        },
+                        {
+                            "Test case no": "4",
+                            "Test case": "Confirm that TSB's social media promotions are standalone compliant.",
+                            "Excerpt": "Each communication (e.g. a tweet, a Facebook insertion or page, or web page) needs to be considered individually and comply with the relevant rules.",
+                            "rule citation": [
+                                "1.11"
+                            ]
+                        },
+                        {
+                            "Test case no": "5",
+                            "Test case": "Verify that TSB maintains adequate records of significant social media communications.",
+                            "Excerpt": "Firms should also keep adequate records of any significant communications. As well as helping to protect consumers, these records enable the firm to deal effectively with any subsequent claims or complaints. Firms should not rely on digital media channels to maintain records, as they will not have control over this: social media in particular may refresh content from time to time, with the consequent deletion of older material.",
+                            "rule citation": [
+                                "1.25"
+                            ]
+                        },
+                        {
+                            "Test case no": "6",
+                            "Test case": "Ensure that TSB has a system in place for the sign-off of digital media communications.",
+                            "Excerpt": "We remind firms of their obligations to have an adequate system in place to sign off digital media communications. This sign-off should be by a person of appropriate competence and seniority within the organisation.1",
+                            "rule citation": [
+                                "1.24"
+                            ]
+                        },
+                        {
+                            "Test case no": "7",
+                            "Test case": "Verify that when TSB using images or infographics in communications (e.g., tweets), the images must be compliant.",
+                            "Excerpt": "One possible solution to the problem of character limitation is to insert images, including the use of infographics, into communications such as tweets (see figure 5), which allows relatively unrestricted information to be conveyed. Clearly, the image must in itself be compliant.",
+                            "rule citation": [
+                                "1.13"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "policy_code": "prin2a",
+                    "policy_test_cases": [
+                        {
+                            "Test case no": "1",
+                            "Test case": "Verify that TSB acts in good faith towards retail customers in all its dealings.",
+                            "Excerpt": "A firm must act in good faith towards retail customers.",
+                            "rule citation": [
+                                "2A.2.1 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "2",
+                            "Test case": "Verify that TSB acts in good faith by demonstrating honesty, fair and open dealing, and consistency with the reasonable expectations of retail customers.",
+                            "Excerpt": "Acting in good faith is a standard of conduct characterised by honesty, fair and open dealing and acting consistently with the reasonable expectations of retail customers.",
+                            "rule citation": [
+                                "2A.2.2 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "3",
+                            "Test case": "Ensure TSB avoids causing foreseeable harm to retail customers through its products and services.",
+                            "Excerpt": "A firm must avoid causing foreseeable harm to retail customers.",
+                            "rule citation": [
+                                "2A.2.8 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "4",
+                            "Test case": "Verify that TSB address foreseeable harm caused by both acts and omissions, whether directly to a retail customer or through their role in the distribution chain, even if another firm also contributes to the harm.",
+                            "Excerpt": "Foreseeable harm may be caused by both act and omission, in a firm’s direct relationship with a retail customer or through its role in the distribution chain even where another firm in that chain also contributes to the harm.",
+                            "rule citation": [
+                                "2A.2.9 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "5",
+                            "Test case": "Check that TSB enables and supports retail customers to pursue their financial objectives.",
+                            "Excerpt": "A firm must enable and support retail customers to pursue their financial objectives.",
+                            "rule citation": [
+                                "2A.2.14 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "6",
+                            "Test case": "Verify that TSB's products provide fair value to retail customers.",
+                            "Excerpt": "A manufacturer must ensure that its products provide fair value to retail customers in the target markets for those products.",
+                            "rule citation": [
+                                "2A.4.2 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "7",
+                            "Test case": "Ensure TSB communicates information to retail customers in a clear, fair, and not misleading way.",
+                            "Excerpt": "A firm must communicate information to retail customers in a way which is clear, fair and not misleading.",
+                            "rule citation": [
+                                "2A.5.3.2 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "8",
+                            "Test case": "Verify that TSB provides adequate customer support to retail customers, including those with characteristics of vulnerability.",
+                            "Excerpt": "A firm must design and deliver support to retail customers such that it meets the needs of retail customers, including those with characteristics of vulnerability.",
+                            "rule citation": [
+                                "2A.6.2 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "9",
+                            "Test case": "Check that TSB regularly monitors the outcomes retail customers receive from its products and services.",
+                            "Excerpt": "A firm must regularly monitor the outcomes retail customers receive from: (1) the products the firm manufactures or distributes; (2) the communications the firm has with retail customers; and (3) the customer support the firm provides to retail customers.",
+                            "rule citation": [
+                                "2A.9.8 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "10",
+                            "Test case": "Ensure TSB takes appropriate action if retail customers are not receiving good outcomes.",
+                            "Excerpt": "Where a firm identifies that retail customers are not receiving the outcomes listed in PRIN 2A.9.9R, or there is a risk that retail customers will not receive these outcomes, it must take appropriate action to address the situation.",
+                            "rule citation": [
+                                "2A.9.12 R"
+                            ]
+                        },
+                        {
+                            "Test case no": "11",
+                            "Test case": "Verify that TSB's governance, strategy, and policies reflect the obligations under Principle 12 and PRIN 2A.",
+                            "Excerpt": "A firm must ensure that Principle 12 and the obligations in this chapter are reflected in their strategies, governance, leadership and people policies, including incentives at all levels.",
+                            "rule citation": [
+                                "2A.8.1 R"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "policy_code": "ps222",
+                    "policy_test_cases": [
+                        {
+                            "Test case no": "1",
+                            "Test case": "Verify that TSB has implemented the new PRIIPs rules and amendments to the Regulatory Technical Standards by the effective date.",
+                            "Excerpt": "Our changes to the PRIIPs RTS and our new rules will take effect from 25 March 2022. However, firms will have until 31 December 2022 to implement the new changes.",
+                            "rule citation": [
+                                "1.27"
+                            ]
+                        },
+                        {
+                            "Test case no": "2",
+                            "Test case": "Ensure TSB provides accurate, clear, fair, and non-misleading information in the Key Information Document (KID).",
+                            "Excerpt": "The changes that we will make to the RTS should address the existing conflict between PRIIPs requirements. PRIIPs manufacturers are required to ensure the information in the KID is accurate, clear, fair and not misleading while at the same time having to produce and present information on performance and risk in a prescribed way which, in some cases, can be seriously misleading. This should enable market participants to meet the accuracy and fair, clear and not misleading requirements more easily, reducing the risk of decreased trust in the market from consumers receiving misleading information.",
+                            "rule citation": [
+                                "1.16"
+                            ]
+                        },
+                        {
+                            "Test case no": "3",
+                            "Test case": "Confirm that TSB has removed performance scenarios from the KID and included a narrative description of performance.",
+                            "Excerpt": "We will proceed with our proposal to remove the requirement for PRIIPs manufacturers to display performance scenarios in the KID.",
+                            "rule citation": [
+                                "4.8"
+                            ]
+                        },
+                        {
+                            "Test case no": "4",
+                            "Test case": "Check that TSB has upgraded the Summary Risk Indicator (SRI) score for PRIIPs where necessary.",
+                            "Excerpt": "We have introduced rules to require PRIIPs manufacturers to upgrade a product's SRI score when the score resulting from the application of the RTS methodology underestimates the level of risk.",
+                            "rule citation": [
+                                "4.17"
+                            ]
+                        },
+                        {
+                            "Test case no": "5",
+                            "Test case": "Verify that TSB has increased the character limit for disclosures of uncaptured risk in the KID.",
+                            "Excerpt": "We maintain that increasing the character limit for the description accompanying the SRI will facilitate a more complete summary of key risks.",
+                            "rule citation": [
+                                "4.20"
+                            ]
+                        },
+                        {
+                            "Test case no": "6",
+                            "Test case": "Ensure TSB has implemented the technical amendments to transaction costs disclosure requirements.",
+                            "Excerpt": "We proposed several changes to improve the accuracy of transaction cost reporting in the following areas: treatment of anti-dilution, calculation of over-the-counter (OTC) transactions in bonds, calculation of costs of index-tracking funds.",
+                            "rule citation": [
+                                "5.2"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "ECR": [
+                {
+                    "policy_code": "ecr2013",
+                    "policy_test_cases": [
+                        {
+                            "Test case no": "1",
+                            "Test case": "Verify that TSB provides general information about its information society services in a form and manner that is easily, directly, and permanently accessible.",
+                            "Excerpt": "A person providing an information society service shall make available to the recipient of the service and any relevant enforcement authority, in a form and manner which is easily, directly and permanently accessible, the following information...",
+                            "rule citation": [
+                                "6.1"
+                            ]
+                        },
+                        {
+                            "Test case no": "2",
+                            "Test case": "Ensure that TSB's commercial communications are clearly identifiable as such and identify the person on whose behalf they are made.",
+                            "Excerpt": "A service provider shall ensure that any commercial communication provided by him and which constitutes or forms part of an information society service shall— (a) be clearly identifiable as a commercial communication; (b) clearly identify the person on whose behalf the commercial communication is made; (c) clearly identify as such any promotional offer (including any discount, premium or gift) and ensure that any conditions which must be met to qualify for it are easily accessible, and presented clearly and unambiguously; and (d) clearly identify as such any promotional competition or game and ensure that any conditions for participation are easily accessible and presented clearly and unambiguously.",
+                            "rule citation": [
+                                "7"
+                            ]
+                        },
+                        {
+                            "Test case no": "3",
+                            "Test case": "Check that TSB ensures any unsolicited commercial communication sent by electronic mail is clearly and unambiguously identifiable as such as soon as it is received.",
+                            "Excerpt": "A service provider shall ensure that any unsolicited commercial communication sent by him by electronic mail is clearly and unambiguously identifiable as such as soon as it is received.",
+                            "rule citation": [
+                                "8"
+                            ]
+                        },
+                        {
+                            "Test case no": "4",
+                            "Test case": "Verify that TSB provides the necessary information before a contract is concluded by electronic means, including technical steps to follow, contract filing, and error correction.",
+                            "Excerpt": "Unless parties who are not consumers have agreed otherwise, where a contract is to be concluded by electronic means a service provider shall, prior to an order being placed by the recipient of a service, provide to that recipient in a clear, comprehensible and unambiguous manner the information set out in (a) to (d) below— (a) the different technical steps to follow to conclude the contract; (b) whether or not the concluded contract will be filed by the service provider and whether it will be accessible; ( O.J. L145, 13.6.77, p.1. Directive as last amended by Directive 2002/38/EC; O.J. L128, 15.5.2002, p.41. a) 5 (c) the technical means for identifying and correcting input errors prior to the placing of the order; and (d) the languages offered for the conclusion of the contract.",
+                            "rule citation": [
+                                "9.1"
+                            ]
+                        },
+                        {
+                            "Test case no": "5",
+                            "Test case": "Ensure that TSB acknowledges receipt of orders placed through technological means without undue delay and by electronic means.",
+                            "Excerpt": "Where the recipient of the service places his order through technological means, a service provider shall acknowledge receipt of the order to the recipient of the service without undue delay and by electronic means...",
+                            "rule citation": [
+                                "11.1a"
+                            ]
+                        },
+                        {
+                            "Test case no": "6",
+                            "Test case": "Confirm that TSB has measures in place to allow recipients to identify and correct input errors before placing an order.",
+                            "Excerpt": "A service provider shall make available to the recipient of the service appropriate, effective and accessible technical means allowing him to identify and correct input errors prior to the placing of the order.",
+                            "rule citation": [
+                                "11.1b"
+                            ]
+                        },
+                        {
+                            "Test case no": "7",
+                            "Test case": "Verify that TSB complies with the liability limitations for mere conduit, caching, and hosting services as specified in the regulations.",
+                            "Excerpt": "Where an information society service is provided which consists of the transmission in a communication network of information provided by a recipient of the service or the provision of access to a communication network, the service provider (if he otherwise would) shall not be liable for damages or for any other pecuniary remedy or for any criminal sanction as a result of that transmission...",
+                            "rule citation": [
+                                "17.1"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "ASA": [
+                {
+                    "policy_code": "bcap",
+                    "policy_test_cases": [
+                        {
+                            "Test case no": "1",
+                            "Test case": "Verify that TSB's advertisements are prepared with a sense of responsibility to the audience and society.",
+                            "Excerpt": "Advertisements must be prepared with a sense of responsibility to the audience and to society.",
+                            "rule citation": [
+                                "1.2"
+                            ]
+                        },
+                        {
+                            "Test case no": "2",
+                            "Test case": "Ensure that TSB's advertisements comply with the law and that broadcasters make this a condition of acceptance.",
+                            "Excerpt": "Advertisements must comply with the law and broadcasters must make that a condition of acceptance.",
+                            "rule citation": [
+                                "1.3"
+                            ]
+                        },
+                        {
+                            "Test case no": "3",
+                            "Test case": "Check that TSB's advertisements do not materially mislead or are likely to do so.",
+                            "Excerpt": "Advertisements must not materially mislead or be likely to do so.",
+                            "rule citation": [
+                                "3.1"
+                            ]
+                        },
+                        {
+                            "Test case no": "4",
+                            "Test case": "Verify that TSB's advertisements do not mislead consumers by omitting material information.",
+                            "Excerpt": "Advertisements must not mislead consumers by omitting material information.",
+                            "rule citation": [
+                                "3.2"
+                            ]
+                        },
+                        {
+                            "Test case no": "5",
+                            "Test case": "Ensure that TSB's advertisements for financial products include all material information such as the main characteristics, price, and identity of the marketer.",
+                            "Excerpt": "For advertisements that quote prices for an advertised product or service, material information [for the purposes of rule 3.2] includes: 3.3.1 the main characteristics of the product or service MISLEADING ADVERTISING The BCAP Code: The UK Code of Broadcast Advertising 15 3.3.2 the identity (for example, a trading name) and geographical address of the marketer and any other trader on whose behalf the advertiser is acting 3.3.3 the price of the advertised product or service, including taxes, or, if the nature of the product or service is such that the price cannot be calculated in advance, the manner in which the price is calculated 3.3.4 delivery charges 3.3.5 the arrangements for payment, delivery, performance or complaint handling, if those differ from the arrangements that consumers are likely to reasonably expect 3.3.6 that consumers have the right to withdraw or cancel, if they have that right.",
+                            "rule citation": [
+                                "3.3"
+                            ]
+                        },
+                        {
+                            "Test case no": "6",
+                            "Test case": "Confirm that TSB's advertisements do not falsely imply that the advertiser is acting as a consumer.",
+                            "Excerpt": "Advertisements must not falsely imply that the advertiser is acting as a consumer or for purposes outside its trade, business, craft or profession.",
+                            "rule citation": [
+                                "3.7"
+                            ]
+                        },
+                        {
+                            "Test case no": "7",
+                            "Test case": "Verify that TSB holds documentary evidence to prove claims that the audience is likely to regard as objective.",
+                            "Excerpt": "Broadcasters must hold documentary evidence to prove claims that the audience is likely to regard as objective and that are capable of objective substantiation.",
+                            "rule citation": [
+                                "3.9"
+                            ]
+                        },
+                        {
+                            "Test case no": "8",
+                            "Test case": "Ensure that TSB's advertisements do not exaggerate the capability or performance of a product or service.",
+                            "Excerpt": "Advertisements must not mislead by exaggerating the capability or performance of a product or service.",
+                            "rule citation": [
+                                "3.12"
+                            ]
+                        },
+                        {
+                            "Test case no": "9",
+                            "Test case": "Check that TSB's advertisements do not suggest that their claims are universally accepted if a significant division of informed or scientific opinion exists.",
+                            "Excerpt": "Advertisements must not suggest that their claims are universally accepted if a significant division of informed or scientific opinion exists.",
+                            "rule citation": [
+                                "3.14"
+                            ]
+                        },
+                        {
+                            "Test case no": "10",
+                            "Test case": "Verify that TSB's advertisements for financial products are centrally cleared by Radiocentre.",
+                            "Excerpt": "Radio Central Copy Clearance - Radio broadcasters must ensure advertisements for consumer credit, investment and complex financial products and services are centrally cleared.",
+                            "rule citation": [
+                                "14.1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "policy_code": "cap",
+                    "policy_test_cases": [
+                        {
+                            "Test case no": "1",
+                            "Test case": "Verify that all marketing communications by TSB are legal, decent, honest, and truthful.",
+                            "Excerpt": "Marketing communications should be legal, decent, honest and truthful.",
+                            "rule citation": [
+                                "1.1"
+                            ]
+                        },
+                        {
+                            "Test case no": "2",
+                            "Test case": "Ensure that TSB's marketing communications reflect the spirit, not merely the letter, of the CAP Code.",
+                            "Excerpt": "Marketing communications must reflect the spirit, not merely the letter, of the Code.",
+                            "rule citation": [
+                                "1.2"
+                            ]
+                        },
+                        {
+                            "Test case no": "3",
+                            "Test case": "Verify that TSB's marketing communications are prepared with a sense of responsibility to consumers and society.",
+                            "Excerpt": "Marketing communications must be prepared with a sense of responsibility to consumers and to society.",
+                            "rule citation": [
+                                "1.3"
+                            ]
+                        },
+                        {
+                            "Test case no": "4",
+                            "Test case": "Ensure TSB complies with all general and sector-specific rules in their marketing communications.",
+                            "Excerpt": "Marketers must comply with all general rules and with relevant sector-specific rules.",
+                            "rule citation": [
+                                "1.4"
+                            ]
+                        },
+                        {
+                            "Test case no": "5",
+                            "Test case": "Verify that TSB's marketing communications do not bring advertising into disrepute.",
+                            "Excerpt": "No marketing communication should bring advertising into disrepute.",
+                            "rule citation": [
+                                "1.5"
+                            ]
+                        },
+                        {
+                            "Test case no": "6",
+                            "Test case": "Ensure TSB's marketing communications respect fair competition principles.",
+                            "Excerpt": "Marketing communications must respect the principles of fair competition generally accepted in business.",
+                            "rule citation": [
+                                "1.6"
+                            ]
+                        },
+                        {
+                            "Test case no": "7",
+                            "Test case": "Verify that TSB responds promptly to ASA's enquiries.",
+                            "Excerpt": "Any unreasonable delay in responding to the ASA's enquiries will normally be considered a breach of the Code.",
+                            "rule citation": [
+                                "1.7"
+                            ]
+                        },
+                        {
+                            "Test case no": "8",
+                            "Test case": "Ensure TSB provides full name and geographical business address to ASA or CAP when requested.",
+                            "Excerpt": "The full name and geographical business address of the marketer must be given to the ASA or CAP without delay if requested.",
+                            "rule citation": [
+                                "1.7.1"
+                            ]
+                        },
+                        {
+                            "Test case no": "9",
+                            "Test case": "Verify that TSB's marketing communications are not misleading.",
+                            "Excerpt": "Marketing communications must not materially mislead or be likely to do so.",
+                            "rule citation": [
+                                "3.1"
+                            ]
+                        },
+                        {
+                            "Test case no": "10",
+                            "Test case": "Ensure TSB's marketing communications do not omit material information.",
+                            "Excerpt": "Marketing communications must not mislead the consumer by omitting material information.",
+                            "rule citation": [
+                                "3.3"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "LSB": [
+                {
+                    "policy_code": "lsbrb",
+                    "policy_test_cases": [
+                        {
+                            "Test case no": "1",
+                            "Test case": "Verify that TSB provides clear, fair, and not misleading product information to business customers.",
+                            "Excerpt": "Firms should ensure that all financial promotions, across all channels, are clear, fair and not misleading.",
+                            "rule citation": [
+                                "Product information 1"
+                            ]
+                        },
+                        {
+                            "Test case no": "2",
+                            "Test case": "Ensure TSB employees are trained and knowledgeable about the range of products offered to customers.",
+                            "Excerpt": "Firms should ensure that employees/agents are trained and knowledgeable about the range of products, across all channels, on offer to customers.",
+                            "rule citation": [
+                                "Product information 2"
+                            ]
+                        },
+                        {
+                            "Test case no": "3",
+                            "Test case": "Verify that TSB seeks customer consent before sharing any business or personal details with third parties.",
+                            "Excerpt": "Firms should ensure that the customer's consent is sought prior to sharing any business or personal details with a third party or an alternative source of finance.",
+                            "rule citation": [
+                                "Product information 4"
+                            ]
+                        },
+                        {
+                            "Test case no": "4",
+                            "Test case": "Ensure TSB provides clear guidance on the information required during the application process.",
+                            "Excerpt": "Firms should ensure that customers are provided with clear guidance on the information and documentation they will need to submit during the application process.",
+                            "rule citation": [
+                                "Product sale 1"
+                            ]
+                        },
+                        {
+                            "Test case no": "5",
+                            "Test case": "Verify that TSB assesses the customer's ability to repay credit sustainably before providing it.",
+                            "Excerpt": "Before providing any form of credit, granting a limit or increasing the customer's borrowing, Firms should assess, from the information available at the time, whether the customer will be able to repay it in a sustainable manner without incurring financial difficulty.",
+                            "rule citation": [
+                                "Product sale 4"
+                            ]
+                        },
+                        {
+                            "Test case no": "6",
+                            "Test case": "Ensure TSB provides declined applicants with the primary reason for the decision in writing.",
+                            "Excerpt": "If an application for a product is declined, the Firm should ensure that it understands the reason(s) behind it in order to be able to convey, where appropriate, this information to the customer. As a minimum, the customer should be provided with the primary reason in writing as to why they have been declined.",
+                            "rule citation": [
+                                "Declined applications 1"
+                            ]
+                        },
+                        {
+                            "Test case no": "7",
+                            "Test case": "Verify that TSB has processes to deal with unauthorised credit card transactions.",
+                            "Excerpt": "Firms should have processes in place to deal with unauthorised credit card transactions. If customer fraud is suspected, the burden of proof is on the Firm to prove this is the case.",
+                            "rule citation": [
+                                "Product execution 4"
+                            ]
+                        },
+                        {
+                            "Test case no": "8",
+                            "Test case": "Ensure TSB supports business customers showing signs of financial stress.",
+                            "Excerpt": "Firms should have triggers and processes in place to help identify customers who are showing signs of financial stress and should engage with these customers in a sensitive and supportive manner.",
+                            "rule citation": [
+                                "Credit monitoring 4"
+                            ]
+                        },
+                        {
+                            "Test case no": "9",
+                            "Test case": "Verify that TSB applies an empathetic approach to customers in financial difficulty.",
+                            "Excerpt": "Firms should demonstrate an empathetic approach to the customer's situation; listening to and acting upon information provided by the customer with a view to developing an appropriate and mutually acceptable solution.",
+                            "rule citation": [
+                                "Financial difficulty 4"
+                            ]
+                        },
+                        {
+                            "Test case no": "10",
+                            "Test case": "Ensure TSB has a vulnerability strategy for identifying and treating vulnerable individuals.",
+                            "Excerpt": "Firms should have a vulnerability strategy, which defines its approach to the identification and treatment of individuals considered to be vulnerable, through whichever channel the customer chooses to engage.",
+                            "rule citation": [
+                                "Vulnerability 1"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "FSMA": [
+                {
+                    "policy_code": "fsm2095",
+                    "policy_test_cases": [
+                        {
+                            "Test case no": "1",
+                            "Test case": "Verify that TSB provides consumers with all required information prior to the conclusion of a distance contract.",
+                            "Excerpt": "In good time prior to the consumer being bound by any distance contract, the supplier shall provide to the consumer the information specified in Schedule 1.",
+                            "rule citation": [
+                                "7.1"
+                            ]
+                        },
+                        {
+                            "Test case no": "2",
+                            "Test case": "Ensure that TSB communicates all contractual terms and conditions to the consumer on paper or another durable medium.",
+                            "Excerpt": "The supplier under a distance contract shall communicate to the consumer on paper, or in another durable medium which is available and accessible to the consumer, all the contractual terms and conditions and the information specified in Schedule 1.",
+                            "rule citation": [
+                                "8.1"
+                            ]
+                        },
+                        {
+                            "Test case no": "3",
+                            "Test case": "Check that TSB informs consumers about their right to cancel a distance contract and the conditions for exercising it.",
+                            "Excerpt": "Whether or not there is a right of cancellation and, where there is a right of cancellation, its duration and the conditions for exercising it, including information on the amount which the consumer may be required to pay in accordance with regulation 13, as well as the consequences of not exercising that right.",
+                            "rule citation": [
+                                "Schedule 1.13"
+                            ]
+                        },
+                        {
+                            "Test case no": "4",
+                            "Test case": "Verify that TSB provides a cancellation period of at least 14 calendar days for distance contracts.",
+                            "Excerpt": "The cancellation period begins on the day on which the distance contract is concluded and ends on the expiry of fourteen calendar days beginning with the day after conclusion day.",
+                            "rule citation": [
+                                "10.2"
+                            ]
+                        },
+                        {
+                            "Test case no": "5",
+                            "Test case": "Ensure that TSB refunds any sum paid by the consumer within 30 calendar days if a distance contract is cancelled.",
+                            "Excerpt": "The supplier shall refund any sum paid by or on behalf of the consumer under or in relation to the contract to the person by whom it was paid, less any charge made in accordance with paragraph (6), as soon as possible and in any event within a period not exceeding 30 calendar days.",
+                            "rule citation": [
+                                "13.3"
+                            ]
+                        },
+                        {
+                            "Test case no": "6",
+                            "Test case": "Confirm that TSB does not impose any obligation on consumers for unsolicited financial services.",
+                            "Excerpt": "A person who receives unsolicited financial services for purposes other than those of his business from another person who supplies those services in the course of his business, shall not thereby become subject to any obligation.",
+                            "rule citation": [
+                                "15.1"
+                            ]
+                        },
+                        {
+                            "Test case no": "7",
+                            "Test case": "Verify that TSB does not demand payment for unsolicited financial services.",
+                            "Excerpt": "Where unsolicited financial services are supplied for purposes other than those of the recipient's business, and a person includes with the supply of those services a demand for payment, or an assertion of a present or prospective right to payment in respect of those services, that person is guilty of an offence.",
+                            "rule citation": [
+                                "15.2"
+                            ]
+                        },
+                        {
+                            "Test case no": "8",
+                            "Test case": "Ensure that TSB does not include any contractual term that is inconsistent with the application of these Regulations.",
+                            "Excerpt": "A term contained in any contract is void if, and to the extent that, it is inconsistent with the application of a provision of these Regulations to a distance contract.",
+                            "rule citation": [
+                                "16.1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "policy_code": "fsm2038",
+                    "policy_test_cases": [
+                        {
+                            "Test case no": "1",
+                            "Test case": "Verify that TSB provides a fee information document to consumers in good time before entering into a contract for a payment account.",
+                            "Excerpt": "Any payment service provider that offers a payment account must ensure that, in good time before entering into a contract for a payment account with a consumer, it provides the consumer with a fee information document.",
+                            "rule citation": [
+                                "8.1"
+                            ]
+                        },
+                        {
+                            "Test case no": "2",
+                            "Test case": "Ensure that TSB makes the fee information document and glossary available to consumers at any time, both electronically and in physical premises.",
+                            "Excerpt": "Any payment service provider that offers a payment account must ensure that the fee information document and the glossary are made available to consumers at any time; provided in an easily accessible manner, including to non-customers in electronic form on the payment service provider's website where available; and in the premises of the payment service provider which are accessible to consumers.",
+                            "rule citation": [
+                                "9.1"
+                            ]
+                        },
+                        {
+                            "Test case no": "3",
+                            "Test case": "Verify that TSB provides an annual statement of fees free of charge to all consumers holding a payment account.",
+                            "Excerpt": "Any payment service provider that offers a payment account must provide an annual statement of fees ('statement of fees') free of charge to all consumers holding a payment account with it.",
+                            "rule citation": [
+                                "10.1"
+                            ]
+                        },
+                        {
+                            "Test case no": "4",
+                            "Test case": "Ensure that TSB offers a switching service between payment accounts denominated in the same currency and located in the UK.",
+                            "Excerpt": "A payment service provider must offer a switching service between payment accounts that are denominated in the same currency; and opened or held with a payment service provider located in the United Kingdom.",
+                            "rule citation": [
+                                "14.1"
+                            ]
+                        },
+                        {
+                            "Test case no": "5",
+                            "Test case": "Verify that TSB does not discriminate against consumers legally resident in the EU by reason of their nationality or place of residence when applying for or accessing a payment account.",
+                            "Excerpt": "A credit institution must not discriminate against consumers legally resident in the European Union by reason of their nationality or place of residence or by reason of any other ground referred to in Article 21 of the Charter of Fundamental Rights of the European Union when those consumers apply for or access a payment account.",
+                            "rule citation": [
+                                "18.1"
+                            ]
+                        },
+                        {
+                            "Test case no": "6",
+                            "Test case": "Ensure that TSB offers a payment account with basic features to eligible consumers and does not charge any fee for the services set out in regulation 19(1) when those services are provided as part of a payment account with basic features.",
+                            "Excerpt": "A credit institution must not charge any fee for the services set out in regulation 19(1) when those services are provided as part of a payment account with basic features.",
+                            "rule citation": [
+                                "20.1"
+                            ]
+                        },
+                        {
+                            "Test case no": "7",
+                            "Test case": "Verify that TSB provides information about the switching service, including roles, time limits, fees, and consumer rights, free of charge and in an accessible manner.",
+                            "Excerpt": "A payment service provider must make available to consumers the following information about the switching service— (a) the roles of the transferring and receiving payment service providers as provided for in this Schedule; (b) the time limits that apply to the completion of the tasks provided for in this Schedule; (c) any fees that are to be be charged; (d) details of any information that the consumer is required to provide; (e) details of the consumer’s right to make a complaint to the Financial Ombudsman Service. (2) The information referred to in sub-paragraph (1) must be made available — (a) free of charge on paper or another durable medium at all premises of the payment service provider which are accessible to consumers; and (b) in electronic form on the payment service provider’s website at all times.",
+                            "rule citation": [
+                                "8.1"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

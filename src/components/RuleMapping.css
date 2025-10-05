@@ -1,0 +1,459 @@
+.rule-mapping-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  min-height: 100vh;
+  padding: 20px;
+  gap: 8px;
+}
+
+.mapping-content {
+  padding: 2rem;
+  background-color: #f5f5f5;
+  flex: 1;
+}
+
+.mapping-table-container {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.header-cell {
+  background-color: #f8f8f8;
+  font-weight: 500 !important;
+  color: #333 !important;
+}
+
+.excluded-row {
+  background-color: #f5f5f5;
+  opacity: 0.8;
+}
+
+.status-badge {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.status-badge.included {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+}
+
+.status-badge.excluded {
+  background-color: #ffebee;
+  color: #c62828;
+}
+
+.edit-button {
+  color: #673ab7;
+}
+
+.edit-button:hover {
+  background-color: rgba(103, 58, 183, 0.1);
+}
+
+.edit-dialog-content {
+  padding: 1rem 0;
+}
+
+.mapping-details {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  border: 1px solid #eee;
+}
+
+.rule-description {
+  margin-top: 1rem !important;
+  color: #333;
+}
+
+.include-checkbox {
+  margin: 0.5rem 0 1rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.edit-form {
+  margin-top: 1.5rem;
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+}
+
+.error-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+  color: #ff5252;
+  padding: 2rem;
+  text-align: center;
+}
+
+.dashboard-container {
+  margin-bottom: 0;
+  background-color: #ffffff;
+}
+
+.stat-card {
+  background-color: white !important;
+  border-radius: 4px !important;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12) !important;
+  height: 120px !important;
+}
+
+.stat-card .MuiCardContent-root {
+  padding: 16px !important;
+  height: 100%;
+}
+
+.stat-card .MuiTypography-subtitle1 {
+  color: #666;
+  font-size: 1.2rem !important;
+  font-weight: 600 !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.stat-card .MuiTypography-h4 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.chart-card {
+  background-color: white !important;
+  border-radius: 4px !important;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12) !important;
+  height: 100% !important;
+  overflow: visible !important;
+}
+
+.chart-card .MuiCardContent-root {
+  padding: 16px !important;
+  height: 100%;
+  position: relative;
+  overflow: visible !important;
+}
+
+.chart-card .MuiTypography-subtitle1 {
+  color: #666;
+  font-size: 1.2rem !important;
+  font-weight: 600 !important;
+  margin-bottom: 12px;
+}
+
+.chart-legend {
+  font-size: 0.75rem !important;
+}
+
+.chart-legend .MuiTypography-caption {
+  font-size: 0.75rem !important;
+  color: #666;
+}
+
+/* Bar chart specific styles */
+.recharts-cartesian-axis-tick-value {
+  font-size: 0.75rem;
+  fill: #666;
+}
+
+.recharts-cartesian-axis-line {
+  stroke: #eee;
+}
+
+.recharts-cartesian-grid line {
+  stroke: #eee;
+}
+
+/* Remove hover effects */
+.stat-card:hover,
+.chart-card:hover {
+  transform: none;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12) !important;
+}
+
+/* Action buttons */
+.mapping-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.run-interpretation-button {
+  background-color: #673ab7 !important;
+  color: white !important;
+  text-transform: none !important;
+  padding: 6px 16px !important;
+  font-weight: normal !important;
+  font-size: 0.875rem !important;
+  border-radius: 4px !important;
+  height: 36px !important;
+}
+
+.run-interpretation-button:hover {
+  background-color: #5e35b1 !important;
+}
+
+.add-mapping-button {
+  background-color: #673ab7 !important;
+  color: white !important;
+  text-transform: none !important;
+  padding: 6px 16px !important;
+  font-weight: normal !important;
+  font-size: 0.875rem !important;
+  border-radius: 4px !important;
+  height: 36px !important;
+}
+
+.add-mapping-button:hover {
+  background-color: #5e35b1 !important;
+}
+
+/* Domain sections */
+.domain-accordion {
+  margin-bottom: 12px !important;
+  border-radius: 4px !important;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12) !important;
+  background-color: white !important;
+}
+
+.domain-summary {
+  min-height: 48px !important;
+}
+
+.domain-title {
+  font-size: 1rem !important;
+  font-weight: normal !important;
+  color: #333;
+}
+
+/* Responsive adjustments */
+@media (max-width: 960px) {
+  .rule-mapping-container {
+    padding: 16px;
+  }
+  
+  .stat-card .MuiCardContent-root,
+  .chart-card .MuiCardContent-root {
+    padding: 12px !important;
+  }
+}
+
+.table-container {
+  border-radius: 4px !important;
+  box-shadow: none !important;
+  border: 1px solid #eee;
+}
+
+.mapping-row:hover {
+  background-color: #f8f8f8;
+}
+
+.document-path {
+  color: #666;
+  font-family: monospace;
+}
+
+.policy-chip {
+  background-color: #fff3e0 !important;
+  color: #e65100 !important;
+  font-weight: 500 !important;
+}
+
+/* Custom scrollbar */
+.table-container::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.table-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 3px;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 3px;
+}
+
+.table-container::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}
+
+/* Adjust cell widths and padding */
+.MuiTableCell-root {
+  padding: 16px !important;
+  vertical-align: middle !important;
+}
+
+/* Accordion styles */
+.MuiAccordionDetails-root {
+  padding: 16px !important;
+}
+
+.recharts-wrapper {
+  margin: 0 auto;
+  overflow: visible !important;
+}
+
+.recharts-surface {
+  overflow: visible;
+}
+
+/* Add labels to pie chart */
+.recharts-pie-label-text {
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  fill: #333333 !important;
+}
+
+.preview-dialog .MuiDialog-paper {
+  margin: 16px;
+}
+
+.preview-dialog .MuiDialogTitle-root {
+  padding: 16px 24px;
+  background-color: #f5f5f5;
+}
+
+.preview-dialog .MuiDialogContent-root {
+  padding: 0;
+}
+
+/* Add these styles */
+.info-field {
+  margin-bottom: 1rem;
+}
+
+.info-field:last-child {
+  margin-bottom: 0;
+}
+
+.info-field .MuiTypography-caption {
+  display: block;
+  margin-bottom: 0.25rem;
+  color: #666;
+}
+
+.info-field .MuiTypography-body1 {
+  color: #333;
+  font-size: 1rem;
+}
+
+.info-field .document-path {
+  font-family: monospace;
+  word-break: break-all;
+}
+
+/* Add these styles */
+.mapping-action-buttons {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.mapping-action-buttons.right-aligned {
+  margin-left: auto;
+}
+
+.run-interpretation-button.Mui-disabled {
+  background-color: rgba(0, 0, 0, 0.12) !important;
+  color: rgba(0, 0, 0, 0.26) !important;
+  cursor: not-allowed;
+}
+
+/* Add tooltip style for disabled button */
+.run-interpretation-button[title] {
+  position: relative;
+}
+
+.run-interpretation-button[title]:hover:after {
+  content: attr(title);
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 5px 10px;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+  z-index: 1000;
+}
+
+/* Add new styles for progress bar */
+.interpretation-progress {
+  padding: 1rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  margin: 0 1rem 1rem 1rem;
+}
+
+.progress-text {
+  margin-bottom: 0.5rem !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.progress-bar {
+  height: 8px !important;
+  border-radius: 4px;
+}
+
+.progress-bar .MuiLinearProgress-bar {
+  background-color: #2e7d32;
+}
+
+/* Animation for progress text */
+@keyframes pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0.7; }
+  100% { opacity: 1; }
+}
+
+.interpretation-progress .progress-text {
+  animation: pulse 2s infinite;
+}
+
+/* Pie chart specific styles */
+.recharts-pie {
+  transform: scale(1.1);
+  transform-origin: center;
+}
+
+.recharts-sector {
+  stroke: none;
+}
+
+/* Legend styles */
+.MuiTypography-caption {
+  font-size: 0.75rem !important;
+  line-height: 1.2 !important;
+  color: #666666 !important;
+}
+
+.stat-card .MuiTypography-subtitle1 {
+  color: #666;
+  font-size: 1.2rem !important;
+  font-weight: 600 !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+} 
